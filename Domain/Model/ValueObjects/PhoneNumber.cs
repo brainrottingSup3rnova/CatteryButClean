@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Model.ValueObjects
 {
-    record class PhoneNumber
+    public record class PhoneNumber
     {
         const int ItalianPhoneNumberLength = 13; 
         const string CountryCode = "+39";
