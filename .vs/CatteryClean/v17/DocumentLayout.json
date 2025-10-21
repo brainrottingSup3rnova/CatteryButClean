@@ -1,53 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\",
+  "WorkspaceRootPath": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\testdomain\\phonenumbertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\phonenumbertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\valueobjects\\tin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\tin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\entities\\adopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\adopter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\testdomain\\cattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\cattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\testdomain\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\testdomain\\emailtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\emailtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\interfaces\\igenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\interfaces\\igenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\entities\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\entities\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BD6C5EB-8711-42C6-94C0-A6EB8A724165}|UIConsole\\UIConsole.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\uiconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\entities\\cat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\phonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\valueobjects\\idcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\idcat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\model\\valueobjects\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\testdomain\\emailtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\emailtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\testdomain\\cattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\cattest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\testdomain\\phonenumbertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\phonenumbertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\testdomain\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6C6D6EF-9038-4A8C-A5CB-4E7236738D53}|TestDomain\\TestDomain.csproj|solutionrelative:testdomain\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\application\\interfaces\\igenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\interfaces\\igenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BD6C5EB-8711-42C6-94C0-A6EB8A724165}|UIConsole\\UIConsole.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\uiconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BD6C5EB-8711-42C6-94C0-A6EB8A724165}|UIConsole\\UIConsole.csproj|solutionrelative:uiconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\davide.genito\\desktop\\nuova cartella\\catterybutclean\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -58,15 +70,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "TIN.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\TIN.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\TIN.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\TIN.cs",
+              "RelativeToolTip": "Domain\\Model\\ValueObjects\\TIN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:49:19.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Adopter.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Adopter.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Adopter.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Adopter.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\Adopter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:45:40.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IdCat.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\IdCat.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\IdCat.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\IdCat.cs",
+              "RelativeToolTip": "Domain\\Model\\ValueObjects\\IdCat.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:17:09.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "CatTest.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\CatTest.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\CatTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\CatTest.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\CatTest.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\CatTest.cs",
               "RelativeToolTip": "TestDomain\\CatTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,11 +126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "PhoneNumberTest.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\PhoneNumberTest.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\PhoneNumberTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\PhoneNumberTest.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\PhoneNumberTest.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\PhoneNumberTest.cs",
               "RelativeToolTip": "TestDomain\\PhoneNumberTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +139,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "MSTestSettings.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "TestDomain\\MSTestSettings.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\MSTestSettings.cs",
               "RelativeToolTip": "TestDomain\\MSTestSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,51 +152,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Interfaces\\IGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Interfaces\\IGenerator.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IGenerator.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Interfaces\\IGenerator.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Interfaces\\IGenerator.cs",
               "RelativeToolTip": "Application\\Interfaces\\IGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:33:53.457Z",
+              "WhenOpened": "2025-10-15T07:33:53.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Cattery.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cattery.cs",
+              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Cattery.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cattery.cs",
+              "RelativeToolTip": "Domain\\Model\\Entities\\Cattery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T07:29:55.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cattery.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cattery.cs",
-              "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Cattery.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cattery.cs",
-              "RelativeToolTip": "Domain\\Model\\Entities\\Cattery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:29:55.576Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Cat.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cat.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cat.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Cat.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cat.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cat.cs",
               "RelativeToolTip": "Domain\\Model\\Entities\\Cat.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAmwHEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwIsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T07:13:26.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PhoneNumber.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\PhoneNumber.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\PhoneNumber.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\PhoneNumber.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\PhoneNumber.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\PhoneNumber.cs",
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\PhoneNumber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T07:01:27.987Z",
               "EditorCaption": ""
@@ -154,22 +205,22 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Email.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\Email.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\Email.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\Email.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\Email.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\Email.cs",
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\Email.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T07:00:44.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Application.csproj",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Application.csproj",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Application.csproj",
               "RelativeToolTip": "Application\\Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -177,11 +228,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -189,11 +240,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\UIConsole\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\UIConsole\\Program.cs",
               "RelativeDocumentMoniker": "UIConsole\\Program.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\UIConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\UIConsole\\Program.cs",
               "RelativeToolTip": "UIConsole\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,11 +252,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "EmailTest.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\EmailTest.cs",
+              "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\EmailTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\EmailTest.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\EmailTest.cs",
+              "ToolTip": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\EmailTest.cs",
               "RelativeToolTip": "TestDomain\\EmailTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

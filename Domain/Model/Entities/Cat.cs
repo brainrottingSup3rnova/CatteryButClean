@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Domain.Model.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,23 @@ namespace Domain.Model.Entities
 {
     public class Cat
     {
+        private IdCat _id;
+        public IdCat Id
+        {
+            get
+            {
+                return _id;
+            }
+            private set
+            {
+                if(string.IsNullOrWhiteSpace(value.ToString()))
+                {
+                    throw new ArgumentException("Id cannot be null or empty.");
+                }
+                _id = value;
+            }
+        }
+
         private string _name;
         public string Name
         { 
@@ -124,6 +142,7 @@ namespace Domain.Model.Entities
             AdoptionDate = adoptionDate;
             BirthDate = birthDate;
             Description = description;
+            Id = new ValueObjects.IdCat(arrivalDate);
         }
     }
 }
