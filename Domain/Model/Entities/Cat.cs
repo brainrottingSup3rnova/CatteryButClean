@@ -42,12 +42,12 @@ namespace Domain.Model.Entities
                 _name = value; 
             }
         }
-        private string _race;
-        public string Race
+        private string _breed;
+        public string Breed
         {
             get
             {
-                return _race;
+                return _breed;
             }
             private set
             {
@@ -108,7 +108,7 @@ namespace Domain.Model.Entities
             {
                 return _adoptionDate;
             }
-            private set
+            set
             {
                 if(value != null && value < ArrivalDate)
                 {
@@ -133,10 +133,10 @@ namespace Domain.Model.Entities
                 _description = value;
             }
         }
-        public Cat(string name, string race, bool isMale, DateTime arrivalDate, DateTime? adoptionDate, DateTime? birthDate, string? description)
+        public Cat(string name, string breed, bool isMale, DateTime arrivalDate, DateTime? adoptionDate, DateTime? birthDate, string? description)
         {
             Name = name;
-            Race = race;
+            Breed = breed;
             IsMale = isMale;
             ArrivalDate = arrivalDate;
             AdoptionDate = adoptionDate;

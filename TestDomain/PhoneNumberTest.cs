@@ -27,5 +27,12 @@ namespace TestDomain
         {
             Assert.ThrowsException<ArgumentException>(() => new PhoneNumber("+39fgh439se34"));
         }
+
+        [TestMethod]
+        public void PhoneNumber_WithValidValues_CreatesPhoneNumber()
+        {
+            PhoneNumber phoneNumber = new PhoneNumber("+393453216654");
+            Assert.IsNotNull(phoneNumber);
+        }
     }
 }

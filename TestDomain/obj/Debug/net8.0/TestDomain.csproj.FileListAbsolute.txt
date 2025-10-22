@@ -1,0 +1,7 @@
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\bin\Debug\net8.0\.msCoverageSourceRootsMapping_TestDomain
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\obj\Debug\net8.0\TestDomain.csproj.AssemblyReference.cache
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\obj\Debug\net8.0\TestDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\obj\Debug\net8.0\TestDomain.AssemblyInfoInputs.cache
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\obj\Debug\net8.0\TestDomain.AssemblyInfo.cs
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\obj\Debug\net8.0\TestDomain.csproj.CoreCompileInputs.cache
+C:\Users\anna.tassinari\Desktop\Nuova cartella\CatteryButClean\TestDomain\obj\Debug\net8.0\TestDomain.sourcelink.json

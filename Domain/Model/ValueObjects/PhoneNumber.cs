@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Domain.Model.ValueObjects
 {
-    public record class PhoneNumber
+    public record PhoneNumber
     {
         const int ItalianPhoneNumberLength = 13; 
         const string CountryCode = "+39";
-        string value;
+        public string Value;
 
         public PhoneNumber(string value)
         {
@@ -32,6 +32,8 @@ namespace Domain.Model.ValueObjects
             {
                 throw new ArgumentException("Invalid phone number format. It should start with +39 and be 13 characters long.");
             }
+
+            Value = value;
         }
     }
 }

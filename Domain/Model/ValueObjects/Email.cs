@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Model.ValueObjects
 {
-    public record class Email
+    public record Email
     {
         string value;
         public Email(string value)

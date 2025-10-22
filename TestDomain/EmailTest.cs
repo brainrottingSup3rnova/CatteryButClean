@@ -7,15 +7,22 @@ namespace TestDomain
     public sealed class EmailTest
     {
         [TestMethod]
-        public void Email_DoesntContainPeriod_ThrowsException()
+        public void EmailConstructor_DoesntContainPeriod_ThrowsException()
         {
             Assert.ThrowsException<ArgumentException>(() => new Email("example@domaincom"));
         }
 
         [TestMethod]
-        public void Email_DoesntContainAtSign_ThrowsException()
+        public void EmailConstructor_DoesntContainAtSign_ThrowsException()
         {
             Assert.ThrowsException<ArgumentException>(() => new Email("exampledomain.com"));
+        }
+
+        [TestMethod]
+        public void EmailConstructor_WithValidValues_CreatesEmail()
+        {
+            Email email = new Email("example@domain.com");
+            Assert.IsNotNull(email);
         }
     }
 }

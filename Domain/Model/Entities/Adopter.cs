@@ -12,7 +12,10 @@ namespace Domain.Model.Entities
         string _name;
         public string Name
         {
-            get { return _name; }
+            get 
+            { 
+                return _name; 
+            }
             private set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -26,7 +29,10 @@ namespace Domain.Model.Entities
         private string _surname;
         public string Surname
         {
-            get { return _surname; }
+            get 
+            { 
+                return _surname; 
+            }
             private set
             {
                 if (string.IsNullOrWhiteSpace(value))
@@ -40,20 +46,68 @@ namespace Domain.Model.Entities
         private PhoneNumber _phoneNumber;
         public PhoneNumber PhoneNumber
         {
-            get { return _phoneNumber; }
+            get 
+            { 
+                return _phoneNumber;
+            }
             private set
             {
                 _phoneNumber = value;
             }
         }
 
-        
+        private Address _addres;
+        public Address Address
+        {
+            get
+            { 
+                return _addres;
+            }
+            private set
+            {
+                _addres = value;
+            }
+        }
 
-        public Adopter(string name, string surname, PhoneNumber phoneNumber)
+        private TIN _tin;
+        public TIN TIN
+        {
+            get
+            {
+                return _tin;
+            }
+            private set
+            {
+                _tin = value;
+            }
+        }
+
+        private Email _email;
+        public Email Email
+        {
+            get
+            {
+                return _email;
+            }
+            private set
+            {
+                _email = value;
+            }
+        }
+
+        public Adopter(string name, string surname, Email email, PhoneNumber phoneNumber, Address address, TIN tin)
         {
             Name = name;
             Surname = surname;
             PhoneNumber = phoneNumber;
+            Address = address;
+            TIN = tin;
+            Email = email;
+        }
+
+        public override string ToString()
+        {
+            return $"Adopter Details:\nName: {Name} {Surname}\nPhone Number: {PhoneNumber.Value}\nAddress: {Address}\nTIN: {TIN.Value}";
         }
     }
 }
