@@ -22,5 +22,18 @@ namespace Application.Mappers
                 adoptionDto.AdoptionDate
             );
         }
+
+        public static AdoptionDto ToAdoptionDto(this Adoption adoption)
+        {
+            if (adoption == null)
+            {
+                throw new ArgumentNullException(nameof(adoption), "Adoption cannot be null.");
+            }
+            else return new AdoptionDto(
+                adoption.Cat.ToCatDto(),
+                adoption.Adopter.ToAdopterDto(),
+                adoption.AdoptionDate
+            );
+        }
     }
 }

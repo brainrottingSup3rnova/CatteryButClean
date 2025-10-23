@@ -27,5 +27,23 @@ namespace Application.Mappers
                 catDto.Description
             );
         }
+        
+        public static CatDto ToCatDto(this Cat cat)
+        {
+            if (cat == null)
+            {
+                throw new ArgumentNullException(nameof(cat), "Cat cannot be null.");
+            }
+            else return new CatDto(
+                cat.Name,
+                cat.Breed,
+                cat.IsMale,
+                cat.ArrivalDate,
+                cat.AdoptionDate,
+                cat.BirthDate,
+                cat.Description,
+                cat.Id
+            );
+        }
     }
 }

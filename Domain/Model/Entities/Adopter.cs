@@ -107,7 +107,7 @@ namespace Domain.Model.Entities
 
         public override string ToString()
         {
-            return $"Adopter Details:\nName: {Name} {Surname}\nPhone Number: {PhoneNumber.Value}\nAddress: {Address}\nTIN: {TIN.Value}";
+            return $"Adopter Details:\nName: {Name} {Surname}\nPhone Number: {PhoneNumber}\nAddress: {Address}\nTIN: {TIN}";
         }
     }
 }

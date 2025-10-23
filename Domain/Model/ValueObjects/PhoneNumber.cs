@@ -24,7 +24,7 @@ namespace Domain.Model.ValueObjects
                     }
                     else
                     {
-                        this.value = value;
+                        Value = value;
                     }
                 }
             }
@@ -34,6 +34,11 @@ namespace Domain.Model.ValueObjects
             }
 
             Value = value;
+        }
+
+        public override string ToString()
+        {
+            return Value;
         }
     }
 }

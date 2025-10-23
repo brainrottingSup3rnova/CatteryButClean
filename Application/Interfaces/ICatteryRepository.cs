@@ -11,5 +11,9 @@ namespace Application.Interfaces
     public interface ICatteryRepository
     {
         void AddCat (Cat cat);
+        void RegisterAdoption (Adoption adoption);
+        void CancelAdoption (Adoption adoption);
+        void RegisterAdopter (Adopter adopter);
+        Cat? GetByName (string name);
     }
 }

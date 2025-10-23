@@ -55,6 +55,7 @@ namespace Domain.Model.Entities
                 {
                     throw new ArgumentException("race cannot be null or empty.");
                 }
+                _breed = value;
             }
         }
         private bool _isMale;

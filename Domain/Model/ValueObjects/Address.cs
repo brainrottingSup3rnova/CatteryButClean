@@ -24,6 +24,24 @@ namespace Domain.Model.ValueObjects
                 _street = value;
             }
         }
+
+        private string _civicNumber;
+        public string CivicNumber
+        {
+            get
+            {
+                return _civicNumber;
+            }
+            private set
+            {
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Civic number cannot be null or empty.");
+                }
+                _civicNumber = value;
+            }
+        }
+
         private string _city;
         public string City
         {
@@ -57,11 +75,17 @@ namespace Domain.Model.ValueObjects
             }
         }
 
-        public Address(string street, string city, string postalCode)
+        public Address(string street, string civicNumber, string city, string postalCode)
         {
             Street = street;
+            CivicNumber = civicNumber;
             City = city;
             PostalCode = postalCode;
+        }
+
+        public override string ToString()
+        {
+            return Street + " " + CivicNumber + ", " + City + " " + PostalCode;
         }
     }
 }

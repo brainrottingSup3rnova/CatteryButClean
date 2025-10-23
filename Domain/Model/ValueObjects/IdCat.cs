@@ -8,6 +8,12 @@ namespace Domain.Model.ValueObjects
 {
     public record class IdCat
     {
+        /*
+         * Un numero random di 5 cifre.
+         * La prima lettera del mese di registrazione.
+         * L'anno della data di registrazione.
+         * Tre lettere casuali.
+         */
         Random random = new Random();
         public List<string> months = new List<string> { "J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D" };
         const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";

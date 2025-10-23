@@ -26,5 +26,21 @@ namespace Application.Mappers
                 adopterDto.TIN
             );
         }
+
+        public static AdopterDto ToAdopterDto(this Adopter adopter)
+        {
+            if (adopter == null)
+            {
+                throw new ArgumentNullException(nameof(adopter), "Adopter cannot be null.");
+            }
+            else return new AdopterDto(
+                adopter.Name,
+                adopter.Surname,
+                adopter.PhoneNumber,
+                adopter.Email,
+                adopter.Address,
+                adopter.TIN
+            );
+        }
     }
 }
