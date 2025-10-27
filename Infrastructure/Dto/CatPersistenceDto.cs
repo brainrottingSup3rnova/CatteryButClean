@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Dto
 {
-    internal record CatPersistenceDto(
+    public record CatPersistenceDto(
         string name,
         string breed,
         bool isMale,

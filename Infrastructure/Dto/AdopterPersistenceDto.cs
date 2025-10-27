@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Dto
 {
-    internal record AdopterPersistenceDto(
+    public record AdopterPersistenceDto(
         string Name,
         string Surname,
-        PhoneNumber PhoneNumber,
         Email Email,
+        PhoneNumber PhoneNumber,
         Address Address,
         TIN TIN
         );

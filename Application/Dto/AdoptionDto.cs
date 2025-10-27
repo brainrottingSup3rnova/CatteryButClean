@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 namespace Application.Dto
 {
     public record AdoptionDto(
-        CatDto Cat,
         AdopterDto Adopter,
+        CatDto Cat,
         DateTime AdoptionDate
         );
 }

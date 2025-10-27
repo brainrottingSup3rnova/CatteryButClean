@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Application.Dto;
 using Application.Interfaces;
+using Application.Mappers;
 using Domain.Model.Entities;
 
 namespace Application.UseCases
@@ -23,19 +24,50 @@ namespace Application.UseCases
             {
                 throw new ArgumentException("Cat name cannot be null or empty.");
             }
+
+            Cat cat = catDto.ToCat();
+            _catteryRepository.AddCat(cat);
         }
 
-        public Cat? GetCatByName(string name)
+        public void RegisterAdoption(AdoptionDto adoptionDto)
         {
-            if (string.IsNullOrWhiteSpace(name))
+            if(adoptionDto == null)
+            {
+                throw new ArgumentNullException("The adoption can't be null");
+            }
+
+            Adoption adoption = adoptionDto.ToAdoption();
+            _catteryRepository.RegisterAdoption(adoption);
+        }
+
+        public void CancelAdoption(AdoptionDto adoptionDto)
+        {
+            if (adoptionDto == null)
+            {
+                throw new ArgumentNullException("The adoption can't be null");
+            }
+            Adoption adoption = adoptionDto.ToAdoption();
+            _catteryRepository.CancelAdoption(adoption);
+        }
+
+        public void RegisterAdopter(AdopterDto adopterDto)
+        {
+            if(adopterDto == null)
+            {
+                throw new ArgumentNullException("The adopter can't be null");
+            }
+            Adopter adopter = adopterDto.ToAdopter();
+            _catteryRepository.RegisterAdopter(adopter);
+        }
+
+        public CatDto? GetCatByName(string name)
+        {
+            if(string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentException("Cat name cannot be null or empty.");
             }
-            else
-            {
-                //TODO: aggiungere mappatura da CatDto a Cat O BOH SMTH
-                return _catteryRepository.GetByName(name);
-            }
+            Cat? cat = _catteryRepository.GetByName(name);
+            return cat?.ToCatDto();
         }
     }
 }

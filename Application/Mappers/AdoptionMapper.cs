@@ -10,15 +10,15 @@ namespace Application.Mappers
 {
     public static class AdoptionMapper
     {
-        public static Adoption ToAdoption(this Adoption adoptionDto)
+        public static Adoption ToAdoption(this AdoptionDto adoptionDto)
         {
             if (adoptionDto == null)
             {
-                throw new ArgumentNullException(nameof(adoptionDto), "AdopterDto cannot be null.");
+                throw new ArgumentNullException("AdopterDto cannot be null.");
             }
             else return new Adoption(
-                adoptionDto.Adopter,
-                adoptionDto.Cat,
+                adoptionDto.Adopter.ToAdopter(),
+                adoptionDto.Cat.ToCat(),
                 adoptionDto.AdoptionDate
             );
         }
@@ -27,11 +27,11 @@ namespace Application.Mappers
         {
             if (adoption == null)
             {
-                throw new ArgumentNullException(nameof(adoption), "Adoption cannot be null.");
+                throw new ArgumentNullException("Adoption cannot be null.");
             }
             else return new AdoptionDto(
-                adoption.Cat.ToCatDto(),
                 adoption.Adopter.ToAdopterDto(),
+                adoption.Cat.ToCatDto(),
                 adoption.AdoptionDate
             );
         }

@@ -17,18 +17,17 @@ namespace Domain.Model.ValueObjects
          * Codice del comune (quattro caratteri)
          * Carattere di controllo, per verificare la correttezza del codice fiscale. 
          */
-        private List<char> consonants = new List<char> { 'B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z' };
         public string Value;
         public TIN(string value)
         {
             if(value.Length != 16) throw new ArgumentException("Invalid TIN lenght");
             for(int i = 0; i < 6; i++)
             {
-                if (!consonants.Contains(value[i])) throw new ArgumentException("Invalid TIN format 1");
+                if (!Char.IsLetter(value[i])) throw new ArgumentException("Invalid TIN format 1");
             }
             for(int i = 6; i < 8;  i++)
             {
-                if(!consonants.Contains(value[i])) throw new ArgumentException("Invalid TIN format 2");
+                if(!Char.IsDigit(value[i])) throw new ArgumentException("Invalid TIN format 2");
             }
             if (!Char.IsLetter(value[8])) throw new ArgumentException("Invalid TIN format 3");
             for (int i = 9; i < 11; i++)

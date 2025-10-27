@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Infrastructure.Dto
 {
-    internal record AdoptionPersistenceDto(
+    public record AdoptionPersistenceDto(
         CatPersistenceDto Cat,
         AdopterPersistenceDto Adopter,
         DateTime AdoptionDate
