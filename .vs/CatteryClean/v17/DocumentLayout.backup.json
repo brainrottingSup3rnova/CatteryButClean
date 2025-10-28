@@ -161,11 +161,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
@@ -177,8 +181,7 @@
               "RelativeToolTip": "Application\\UseCases\\Cattery.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAUwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:45:54.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:45:54.676Z"
             },
             {
               "$type": "Document",
@@ -190,8 +193,7 @@
               "RelativeToolTip": "Application\\Mappers\\AdoptionMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:43:50.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:43:50.28Z"
             },
             {
               "$type": "Document",
@@ -203,8 +205,7 @@
               "RelativeToolTip": "Application\\Interfaces\\ICatteryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:47:06.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:47:06.1Z"
             },
             {
               "$type": "Document",
@@ -216,8 +217,7 @@
               "RelativeToolTip": "Application\\Dto\\CatDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:29.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:22:29.782Z"
             },
             {
               "$type": "Document",
@@ -229,8 +229,7 @@
               "RelativeToolTip": "Application\\Mappers\\AdopterMapper.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:38:46.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:38:46.884Z"
             },
             {
               "$type": "Document",
@@ -242,8 +241,7 @@
               "RelativeToolTip": "Infrastructure\\Dto\\AdopterPersistenceDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:31:30.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T08:31:30.107Z"
             },
             {
               "$type": "Document",
@@ -255,8 +253,7 @@
               "RelativeToolTip": "Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:41:41.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T08:41:41.98Z"
             },
             {
               "$type": "Document",
@@ -268,8 +265,7 @@
               "RelativeToolTip": "Infrastructure\\Dto\\CatPersistenceDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:24:37.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T08:24:37.26Z"
             },
             {
               "$type": "Document",
@@ -279,7 +275,7 @@
               "RelativeDocumentMoniker": "Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
               "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
               "RelativeToolTip": "Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T08:57:27.929Z",
               "EditorCaption": ""
@@ -294,8 +290,7 @@
               "RelativeToolTip": "Application\\Dto\\AdoptionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:56.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:22:56.229Z"
             },
             {
               "$type": "Document",
@@ -307,8 +302,7 @@
               "RelativeToolTip": "Application\\Dto\\AdopterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:40.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:22:40.208Z"
             },
             {
               "$type": "Document",
@@ -320,8 +314,7 @@
               "RelativeToolTip": "Application\\Mappers\\CatMapper.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:32:50.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:32:50.143Z"
             },
             {
               "$type": "Document",
@@ -333,8 +326,7 @@
               "RelativeToolTip": "Domain\\Model\\Entities\\Adoption.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:19:56.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:19:56.671Z"
             },
             {
               "$type": "Document",
@@ -346,8 +338,7 @@
               "RelativeToolTip": "Domain\\Model\\Entities\\Cat.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:13:26.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-15T07:13:26.809Z"
             },
             {
               "$type": "Document",
@@ -359,8 +350,7 @@
               "RelativeToolTip": "Domain\\Model\\Entities\\Adopter.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAArwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T09:45:40.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T09:45:40.266Z"
             },
             {
               "$type": "Document",
@@ -372,8 +362,7 @@
               "RelativeToolTip": "DomainTest\\AdopterTest.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAASwCcAAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:35:16.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T08:35:16.73Z"
             },
             {
               "$type": "Document",
@@ -385,8 +374,7 @@
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\TIN.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvysAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T09:49:19.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T09:49:19.358Z"
             },
             {
               "$type": "Document",
@@ -398,8 +386,7 @@
               "RelativeToolTip": "DomainTest\\AdoptionTest.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwEUAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:36:31.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T08:36:31.087Z"
             },
             {
               "$type": "Document",
@@ -411,8 +398,7 @@
               "RelativeToolTip": "DomainTest\\AddressTest.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:36:24.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T08:36:24.581Z"
             },
             {
               "$type": "Document",
@@ -424,12 +410,7 @@
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\Email.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:00:44.591Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+              "WhenOpened": "2025-10-15T07:00:44.591Z"
             },
             {
               "$type": "Document",

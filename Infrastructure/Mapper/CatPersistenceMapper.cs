@@ -8,11 +8,15 @@ using Domain.Model.Entities;
 
 namespace Infrastructure.Mapper
 {
-    internal static class CatPersistenceMapper
+    public static class CatPersistenceMapper
     {
-        public static CatPersistenceDto ToPersistenceDto(this Cat cat)
+        public static CatPersistenceDto ToCatPersistenceDto(this Cat cat)
         {
-            return new Dto.CatPersistenceDto(
+            if(cat == null)
+            {
+                throw new ArgumentNullException("Cat cannot be null.");
+            }
+            else return new Dto.CatPersistenceDto(
                 name: cat.Name,
                 breed: cat.Breed,
                 isMale: cat.IsMale,
@@ -23,11 +27,11 @@ namespace Infrastructure.Mapper
                 );
         }
 
-        public static Cat ToCat(this CatPersistenceDto catPersistenceDto)
+        public static Cat ToCatPersistence(this CatPersistenceDto catPersistenceDto)
         {
             if (catPersistenceDto == null)
             {
-                throw new ArgumentNullException(nameof(catPersistenceDto), "CatPersistenceDto cannot be null.");
+                throw new ArgumentNullException("CatPersistenceDto cannot be null.");
             }
             else return new Cat(
                 catPersistenceDto.name,

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using Application.Interfaces;
 using Domain.Model.Entities;
 using System.Text.Json;
-/*
+using Infrastructure.Dto;
+
 namespace Infrastructure.Repositories
 {
     public class JsonCatRepository : ICatteryRepository
@@ -15,7 +16,6 @@ namespace Infrastructure.Repositories
         private readonly Dictionary<string, Cat> _cache = new(StringComparer.OrdinalIgnoreCase);
         private bool _isLoaded = false;
 
-       TODO : Implement JSON persistence logic
         private void EnsureDataLoading()
         {
             if(_isLoaded) return;
@@ -27,8 +27,27 @@ namespace Infrastructure.Repositories
             }
 
             var jsonData = File.ReadAllText(_filePath);
+            var dtos = JsonSerializer.Deserialize<List<CatPersistenceDto>>(jsonData) ?? new List<CatPersistenceDto>();
         }
-        
+        public void AddCat(Cat cat)
+        {
+            throw new NotImplementedException();
+        }
+        public void RegisterAdoption(Adoption adoption)
+        {
+            throw new NotImplementedException();
+        }
+        public void CancelAdoption(Adoption adoption)
+        {
+            throw new NotImplementedException();
+        }
+        public void RegisterAdopter(Adopter adopter)
+        {
+            throw new NotImplementedException();
+        }
+        public Cat? GetByName(string name)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-*/

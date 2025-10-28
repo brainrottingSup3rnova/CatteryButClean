@@ -24,5 +24,21 @@ namespace Infrastructure.Mapper
                 adopter.TIN
             );
         }
+
+        public static Adopter ToAdopterPersistence(this AdopterPersistenceDto adopterPersistenceDto)
+        {
+            if (adopterPersistenceDto == null)
+            {
+                throw new ArgumentNullException("AdopterPersistenceDto cannot be null.");
+            }
+            else return new Adopter(
+                adopterPersistenceDto.Name,
+                adopterPersistenceDto.Surname,
+                adopterPersistenceDto.Email,
+                adopterPersistenceDto.PhoneNumber,
+                adopterPersistenceDto.Address,
+                adopterPersistenceDto.TIN
+            );
+        }
     }
 }
