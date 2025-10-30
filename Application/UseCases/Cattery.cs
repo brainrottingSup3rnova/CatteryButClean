@@ -18,56 +18,54 @@ namespace Application.UseCases
             _catteryRepository = catteryRepository;
         }
 
-        public void AddCat(CatDto catDto)
+        public void AddCat(Cat cat)
         {
-            if(string.IsNullOrWhiteSpace(catDto.Name))
+            if(string.IsNullOrWhiteSpace(cat.Name))
             {
                 throw new ArgumentException("Cat name cannot be null or empty.");
             }
-
-            Cat cat = catDto.ToCat();
             _catteryRepository.AddCat(cat);
         }
 
-        public void RegisterAdoption(AdoptionDto adoptionDto)
+        public void RegisterAdoption(Adoption adoption)
         {
-            if(adoptionDto == null)
+            if(adoption == null)
             {
                 throw new ArgumentNullException("The adoption can't be null");
             }
-
-            Adoption adoption = adoptionDto.ToAdoption();
             _catteryRepository.RegisterAdoption(adoption);
         }
 
-        public void CancelAdoption(AdoptionDto adoptionDto)
+        public void CancelAdoption(Adoption adoption)
         {
-            if (adoptionDto == null)
+            if (adoption == null)
             {
                 throw new ArgumentNullException("The adoption can't be null");
             }
-            Adoption adoption = adoptionDto.ToAdoption();
             _catteryRepository.CancelAdoption(adoption);
         }
 
-        public void RegisterAdopter(AdopterDto adopterDto)
+        public void RegisterAdopter(Adopter adopter)
         {
-            if(adopterDto == null)
+            if(adopter == null)
             {
                 throw new ArgumentNullException("The adopter can't be null");
             }
-            Adopter adopter = adopterDto.ToAdopter();
             _catteryRepository.RegisterAdopter(adopter);
         }
 
-        public CatDto? GetCatByName(string name)
+        public Cat GetCatByName(string name)
         {
             if(string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentException("Cat name cannot be null or empty.");
             }
             Cat? cat = _catteryRepository.GetByName(name);
-            return cat?.ToCatDto();
+            if(cat == null)
+            {
+                throw new KeyNotFoundException($"Cat with name '{name}' not found.");
+            }
+            else return cat;
         }
     }
 }

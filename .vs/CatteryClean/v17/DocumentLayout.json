@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\usecases\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\usecases\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668DF682-AC3D-4E74-9C97-25A629FDFDCC}|ApplicationTest\\ApplicationTest.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\applicationtest\\catterytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668DF682-AC3D-4E74-9C97-25A629FDFDCC}|ApplicationTest\\ApplicationTest.csproj|solutionrelative:applicationtest\\catterytest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\interfaces\\icatteryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icatteryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668DF682-AC3D-4E74-9C97-25A629FDFDCC}|ApplicationTest\\ApplicationTest.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\applicationtest\\applicationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{668DF682-AC3D-4E74-9C97-25A629FDFDCC}|ApplicationTest\\ApplicationTest.csproj|solutionrelative:applicationtest\\applicationtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\infrastructure\\repositories\\jsoncatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\jsoncatrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\infrastructure\\mapper\\adoptionpersistencemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\mapper\\adoptionpersistencemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\infrastructure\\dto\\adopterpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dto\\adopterpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\dto\\adopterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\dto\\adopterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\infrastructure\\mapper\\adopterpersistencemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +59,8 @@
       "RelativeMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dto\\catpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\usecases\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\usecases\\cattery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\infrastructure\\dto\\adoptionpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dto\\adoptionpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\infrastructure\\dto\\adopterpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26C5CD23-8690-4E61-82FC-6C240ACBAA73}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\dto\\adopterpersistencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\interfaces\\icatteryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\interfaces\\icatteryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\dto\\catdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\dto\\adoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\dto\\adoptiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\application\\dto\\adopterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8EF170-3A2D-460D-90D4-56EDCF6A3114}|Application\\Application.csproj|solutionrelative:application\\dto\\adopterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC38637A-BB98-418B-B78F-11DFF0808EE1}|Domain\\Domain.csproj|c:\\users\\anna.tassinari\\desktop\\nuova cartella\\catterybutclean\\domain\\model\\entities\\adoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -165,63 +173,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdoptionPersistenceMapper.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
-              "RelativeToolTip": "Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Title": "CatteryTest.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\ApplicationTest\\CatteryTest.cs",
+              "RelativeDocumentMoniker": "ApplicationTest\\CatteryTest.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\ApplicationTest\\CatteryTest.cs",
+              "RelativeToolTip": "ApplicationTest\\CatteryTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T10:22:20.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Cattery.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\UseCases\\Cattery.cs",
-              "RelativeDocumentMoniker": "Application\\UseCases\\Cattery.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\UseCases\\Cattery.cs",
-              "RelativeToolTip": "Application\\UseCases\\Cattery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:45:54.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CatPersistenceDto.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\CatPersistenceDto.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Dto\\CatPersistenceDto.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\CatPersistenceDto.cs",
-              "RelativeToolTip": "Infrastructure\\Dto\\CatPersistenceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:24:37.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdopterPersistenceMapper.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
-              "RelativeToolTip": "Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:57:27.929Z",
+              "WhenOpened": "2025-10-30T09:52:47.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "ApplicationTest",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\ApplicationTest\\ApplicationTest.csproj",
+              "RelativeDocumentMoniker": "ApplicationTest\\ApplicationTest.csproj",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\ApplicationTest\\ApplicationTest.csproj",
+              "RelativeToolTip": "ApplicationTest\\ApplicationTest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-30T09:52:44.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CatPersistenceMapper.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\CatPersistenceMapper.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Mapper\\CatPersistenceMapper.cs",
@@ -234,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AdoptionMapper.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Mappers\\AdoptionMapper.cs",
               "RelativeDocumentMoniker": "Application\\Mappers\\AdoptionMapper.cs",
@@ -247,20 +229,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "CatMapper.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Mappers\\CatMapper.cs",
               "RelativeDocumentMoniker": "Application\\Mappers\\CatMapper.cs",
               "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Mappers\\CatMapper.cs",
               "RelativeToolTip": "Application\\Mappers\\CatMapper.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwCsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-22T07:32:50.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "AdopterMapper.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Mappers\\AdopterMapper.cs",
               "RelativeDocumentMoniker": "Application\\Mappers\\AdopterMapper.cs",
@@ -273,56 +255,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "JsonCatRepository.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Repositories\\JsonCatRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\JsonCatRepository.cs",
               "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Repositories\\JsonCatRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\JsonCatRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwG8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T08:15:34.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdoptionPersistenceDto.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
-              "RelativeToolTip": "Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:41:41.98Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AdopterPersistenceDto.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdopterPersistenceDto.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Dto\\AdopterPersistenceDto.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdopterPersistenceDto.cs",
-              "RelativeToolTip": "Infrastructure\\Dto\\AdopterPersistenceDto.cs",
+              "DocumentIndex": 7,
+              "Title": "AdopterDto.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\AdopterDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\AdopterDto.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\AdopterDto.cs",
+              "RelativeToolTip": "Application\\Dto\\AdopterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:31:30.107Z"
+              "WhenOpened": "2025-10-22T07:22:40.208Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CatDto.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\CatDto.cs",
-              "RelativeDocumentMoniker": "Application\\Dto\\CatDto.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\CatDto.cs",
-              "RelativeToolTip": "Application\\Dto\\CatDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:29.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "ICatteryRepository.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Interfaces\\ICatteryRepository.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\ICatteryRepository.cs",
@@ -330,11 +289,103 @@
               "RelativeToolTip": "Application\\Interfaces\\ICatteryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:47:06.1Z"
+              "WhenOpened": "2025-10-22T07:47:06.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cattery.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\UseCases\\Cattery.cs",
+              "RelativeDocumentMoniker": "Application\\UseCases\\Cattery.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\UseCases\\Cattery.cs",
+              "RelativeToolTip": "Application\\UseCases\\Cattery.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:45:54.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdopterPersistenceMapper.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
+              "RelativeToolTip": "Infrastructure\\Mapper\\AdopterPersistenceMapper.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:57:27.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdopterPersistenceDto.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdopterPersistenceDto.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Dto\\AdopterPersistenceDto.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdopterPersistenceDto.cs",
+              "RelativeToolTip": "Infrastructure\\Dto\\AdopterPersistenceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:31:30.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdoptionPersistenceMapper.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
+              "RelativeToolTip": "Infrastructure\\Mapper\\AdoptionPersistenceMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-28T10:22:20.509Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "CatPersistenceDto.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\CatPersistenceDto.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Dto\\CatPersistenceDto.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\CatPersistenceDto.cs",
+              "RelativeToolTip": "Infrastructure\\Dto\\CatPersistenceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:24:37.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdoptionPersistenceDto.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
+              "RelativeToolTip": "Infrastructure\\Dto\\AdoptionPersistenceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T08:41:41.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CatDto.cs",
+              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\CatDto.cs",
+              "RelativeDocumentMoniker": "Application\\Dto\\CatDto.cs",
+              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\CatDto.cs",
+              "RelativeToolTip": "Application\\Dto\\CatDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T07:22:29.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "AdoptionDto.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\AdoptionDto.cs",
               "RelativeDocumentMoniker": "Application\\Dto\\AdoptionDto.cs",
@@ -342,35 +393,25 @@
               "RelativeToolTip": "Application\\Dto\\AdoptionDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:56.229Z"
+              "WhenOpened": "2025-10-22T07:22:56.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AdopterDto.cs",
-              "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\AdopterDto.cs",
-              "RelativeDocumentMoniker": "Application\\Dto\\AdopterDto.cs",
-              "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Dto\\AdopterDto.cs",
-              "RelativeToolTip": "Application\\Dto\\AdopterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:40.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Adoption.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Adoption.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Adoption.cs",
               "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Adoption.cs",
               "RelativeToolTip": "Domain\\Model\\Entities\\Adoption.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:19:56.671Z"
+              "WhenOpened": "2025-10-22T07:19:56.671Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Cat.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cat.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Cat.cs",
@@ -378,11 +419,12 @@
               "RelativeToolTip": "Domain\\Model\\Entities\\Cat.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:13:26.809Z"
+              "WhenOpened": "2025-10-15T07:13:26.809Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Adopter.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Adopter.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\Entities\\Adopter.cs",
@@ -390,11 +432,12 @@
               "RelativeToolTip": "Domain\\Model\\Entities\\Adopter.cs",
               "ViewState": "AgIAAE4AAAAAAAAAAAArwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T09:45:40.266Z"
+              "WhenOpened": "2025-10-21T09:45:40.266Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AdopterTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\DomainTest\\AdopterTest.cs",
               "RelativeDocumentMoniker": "DomainTest\\AdopterTest.cs",
@@ -402,11 +445,12 @@
               "RelativeToolTip": "DomainTest\\AdopterTest.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAASwCcAAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:35:16.73Z"
+              "WhenOpened": "2025-10-23T08:35:16.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TIN.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\TIN.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\TIN.cs",
@@ -414,11 +458,12 @@
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\TIN.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvysAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T09:49:19.358Z"
+              "WhenOpened": "2025-10-21T09:49:19.358Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "AdoptionTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\DomainTest\\AdoptionTest.cs",
               "RelativeDocumentMoniker": "DomainTest\\AdoptionTest.cs",
@@ -426,11 +471,12 @@
               "RelativeToolTip": "DomainTest\\AdoptionTest.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAgwEUAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:36:31.087Z"
+              "WhenOpened": "2025-10-23T08:36:31.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "AddressTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\DomainTest\\AddressTest.cs",
               "RelativeDocumentMoniker": "DomainTest\\AddressTest.cs",
@@ -438,11 +484,12 @@
               "RelativeToolTip": "DomainTest\\AddressTest.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:36:24.581Z"
+              "WhenOpened": "2025-10-23T08:36:24.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Email.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\Email.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\Email.cs",
@@ -450,11 +497,12 @@
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\Email.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:00:44.591Z"
+              "WhenOpened": "2025-10-15T07:00:44.591Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "TinTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\DomainTest\\TinTest.cs",
               "RelativeDocumentMoniker": "DomainTest\\TinTest.cs",
@@ -462,11 +510,12 @@
               "RelativeToolTip": "DomainTest\\TinTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:43:11.019Z"
+              "WhenOpened": "2025-10-23T08:43:11.019Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Address.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\Address.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\Address.cs",
@@ -474,23 +523,25 @@
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\Address.cs",
               "ViewState": "AgIAAEIAAAAAAAAAAAAMwFsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T08:28:30.6Z"
+              "WhenOpened": "2025-10-23T08:28:30.6Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "PhoneNumber.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\PhoneNumber.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\PhoneNumber.cs",
               "ToolTip": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\PhoneNumber.cs",
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\PhoneNumber.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA5wBoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T07:01:27.987Z"
+              "WhenOpened": "2025-10-15T07:01:27.987Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "AddressTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\AddressTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\AddressTest.cs",
@@ -501,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "AdoptionTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\AdoptionTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\AdoptionTest.cs",
@@ -512,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "AdopterTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\AdopterTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\AdopterTest.cs",
@@ -523,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IdCatTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\IdCatTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\IdCatTest.cs",
@@ -534,7 +585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "CatTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\CatTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\CatTest.cs",
@@ -545,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IdCat.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\ValueObjects\\IdCat.cs",
               "RelativeDocumentMoniker": "Domain\\Model\\ValueObjects\\IdCat.cs",
@@ -553,11 +604,12 @@
               "RelativeToolTip": "Domain\\Model\\ValueObjects\\IdCat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T09:17:09.96Z"
+              "WhenOpened": "2025-10-21T09:17:09.96Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "TestDomain\\MSTestSettings.cs",
@@ -568,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "PhoneNumberTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\PhoneNumberTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\PhoneNumberTest.cs",
@@ -579,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "EmailTest.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\TestDomain\\EmailTest.cs",
               "RelativeDocumentMoniker": "TestDomain\\EmailTest.cs",
@@ -590,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "Cattery.cs",
               "DocumentMoniker": "C:\\Users\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cattery.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\davide.genito\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Model\\Entities\\Cattery.cs",
@@ -601,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -609,11 +661,12 @@
               "RelativeToolTip": "Application\\Application.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-30T09:31:12.213Z"
+              "WhenOpened": "2025-09-30T09:31:12.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
@@ -621,11 +674,12 @@
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-30T09:27:49.713Z"
+              "WhenOpened": "2025-09-30T09:27:49.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\UIConsole\\Program.cs",
               "RelativeDocumentMoniker": "UIConsole\\Program.cs",
@@ -633,7 +687,8 @@
               "RelativeToolTip": "UIConsole\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T09:27:43.666Z"
+              "WhenOpened": "2025-09-30T09:27:43.666Z",
+              "EditorCaption": ""
             }
           ]
         }
