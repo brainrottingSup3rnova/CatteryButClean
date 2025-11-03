@@ -11,7 +11,6 @@ namespace Application.Dto
         string Name,
         string Surname,
         PhoneNumber PhoneNumber,
-        Email Email,
         Address Address,
         TIN TIN
         );

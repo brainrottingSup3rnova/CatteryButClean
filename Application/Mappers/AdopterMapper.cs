@@ -20,7 +20,6 @@ namespace Application.Mappers
             else return new Adopter(
                 adopterDto.Name,
                 adopterDto.Surname,
-                adopterDto.Email,
                 adopterDto.PhoneNumber,
                 adopterDto.Address,
                 adopterDto.TIN
@@ -37,7 +36,6 @@ namespace Application.Mappers
                 adopter.Name,
                 adopter.Surname,
                 adopter.PhoneNumber,
-                adopter.Email,
                 adopter.Address,
                 adopter.TIN
             );

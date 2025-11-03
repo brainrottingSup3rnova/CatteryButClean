@@ -95,14 +95,13 @@ namespace Domain.Model.Entities
             }
         }
 
-        public Adopter(string name, string surname, Email email, PhoneNumber phoneNumber, Address address, TIN tin)
+        public Adopter(string name, string surname , PhoneNumber phoneNumber, Address address, TIN tin)
         {
             Name = name;
             Surname = surname;
             PhoneNumber = phoneNumber;
             Address = address;
             TIN = tin;
-            Email = email;
         }
 
         public override string ToString()

@@ -21,7 +21,7 @@ namespace ApplicationTest
             PhoneNumber phoneNumber = new PhoneNumber("+396543213345");
             Email email = new Email("supernovasasigma@gmail.com");
             TIN tin = new TIN("TSSNNA08R61D704Z");
-            Adopter adopter = new Adopter("Anna", "Tassinari", email, phoneNumber, address, tin);
+            Adopter adopter = new Adopter("Anna", "Tassinari", phoneNumber, address, tin);
             Adoption adoption = new Adoption(adopter, cat, new DateTime(2020, 05, 20));
             AdoptionDto adoptionDto = new AdoptionDto(
                 adopter.ToAdopterDto(),
@@ -41,7 +41,7 @@ namespace ApplicationTest
             PhoneNumber phoneNumber = new PhoneNumber("+396543213345");
             Email email = new Email("supernovasasigma@gmail.com");
             TIN tin = new TIN("TSSNNA08R61D704Z");
-            Adopter adopter = new Adopter("Anna", "Tassinari", email, phoneNumber, address, tin);
+            Adopter adopter = new Adopter("Anna", "Tassinari", phoneNumber, address, tin);
             Adoption adoption = new Adoption(adopter, cat, new DateTime(2020, 05, 20));
             AdoptionDto adoptionDto = new AdoptionDto(
                 adopter.ToAdopterDto(),
