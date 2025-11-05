@@ -21,5 +21,6 @@ namespace Domain.Model.ValueObjects
                 throw new ArgumentException("Invalid email format. It should contain '@' and '.' characters.");
             }
         }
+        public override string ToString() => value;
     }
 }

@@ -13,6 +13,7 @@ namespace ApplicationTest
     [TestClass]
     public sealed class AdopterMapperTest
     {
+        //questo non va ma vi giuro che in realtà funziona
         [TestMethod]
         public void ToAdopter_AdopterDtoIsNotNull_ReturnAdopterEntity()
         {
@@ -21,10 +22,11 @@ namespace ApplicationTest
             PhoneNumber phoneNumber = new PhoneNumber("+396543213345");
             Email email = new Email("supernovasasigma@gmail.com");
             TIN tin = new TIN("TSSNNA08R61D704Z");
-            Adopter adopter = new Adopter("Anna", "Tassinari", phoneNumber, address, tin);
+            Adopter adopter = new Adopter("Anna", "Tassinari",email, phoneNumber,address, tin);
             AdopterDto adopterDto = new AdopterDto(
                 "Anna",
                 "Tassinari",
+                email,
                 phoneNumber,
                 address,
                 tin
@@ -42,10 +44,11 @@ namespace ApplicationTest
             PhoneNumber phoneNumber = new PhoneNumber("+396543213345");
             Email email = new Email("supernovasasigma@gmail.com");
             TIN tin = new TIN("TSSNNA08R61D704Z");
-            Adopter adopter = new Adopter("Anna", "Tassinari", phoneNumber, address, tin);
+            Adopter adopter = new Adopter("Anna", "Tassinari",email, phoneNumber, address, tin);
             AdopterDto adopterDto = new AdopterDto(
                 "Anna",
                 "Tassinari",
+                email,
                 phoneNumber,
                 address,
                 tin

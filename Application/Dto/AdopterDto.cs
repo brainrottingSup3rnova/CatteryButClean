@@ -10,6 +10,7 @@ namespace Application.Dto
     public record AdopterDto(
         string Name,
         string Surname,
+        Email Email,
         PhoneNumber PhoneNumber,
         Address Address,
         TIN TIN

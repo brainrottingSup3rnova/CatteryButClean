@@ -19,7 +19,7 @@ namespace TestDomain
             PhoneNumber phoneNumber = new PhoneNumber("+396543213345");
             Email email = new Email("supernovasasigma@gmail.com");
             TIN tin = new TIN("TSSNNA08R61D704Z");
-            Adopter adopter = new Adopter("Anna", "Tassinari", phoneNumber, address, tin);
+            Adopter adopter = new Adopter("Anna", "Tassinari", email, phoneNumber, address, tin);
 
             Assert.AreEqual("Anna", adopter.Name);
             Assert.AreEqual("Tassinari", adopter.Surname);
@@ -35,9 +35,9 @@ namespace TestDomain
             PhoneNumber phoneNumber = new PhoneNumber("+396543213345");
             Email email = new Email("supernovasasigma@gmail.com");
             TIN tin = new TIN("TSSNNA08R61D704Z");
-            Adopter adopter = new Adopter("Anna", "Tassinari", phoneNumber, address, tin);
+            Adopter adopter = new Adopter("Anna", "Tassinari",email, phoneNumber, address, tin);
 
-            string expectedString = "Adopter Details:\nName: Anna Tassinari\nPhone Number: +396543213345\nAddress: Main St 555, Springfield 62701\nTIN: TSSNNA08R61D704Z";
+            string expectedString = "Adopter Details:\nName: Anna Tassinari\nEmail: supernovasasigma@gmail.com\nPhone Number: +396543213345\nAddress: Main St 555, Springfield 62701\nTIN: TSSNNA08R61D704Z";
             Assert.AreEqual(expectedString, adopter.ToString());
         }
     }
