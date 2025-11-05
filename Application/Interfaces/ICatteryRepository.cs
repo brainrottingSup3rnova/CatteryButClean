@@ -15,5 +15,6 @@ namespace Application.Interfaces
         void CancelAdoption (Adoption adoption);
         void RegisterAdopter (Adopter adopter);
         Cat? GetByName (string name);
+        Cat[]? GetAllCats ();
     }
 }

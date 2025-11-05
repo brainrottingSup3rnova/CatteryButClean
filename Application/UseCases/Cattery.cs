@@ -67,5 +67,10 @@ namespace Application.UseCases
             }
             else return cat;
         }
+
+        public Cat[]? GetAllCats()
+        {
+            return _catteryRepository.GetAllCats();
+        }
     }
 }
