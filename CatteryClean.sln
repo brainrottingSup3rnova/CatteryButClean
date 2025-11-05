@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDomain", "DomainTest\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationTest", "ApplicationTest\ApplicationTest.csproj", "{668DF682-AC3D-4E74-9C97-25A629FDFDCC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatteryWpf", "CatteryWpf\CatteryWpf.csproj", "{7B2E51C6-8445-4545-90EA-F4CAFFE5701A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{668DF682-AC3D-4E74-9C97-25A629FDFDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{668DF682-AC3D-4E74-9C97-25A629FDFDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{668DF682-AC3D-4E74-9C97-25A629FDFDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2E51C6-8445-4545-90EA-F4CAFFE5701A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2E51C6-8445-4545-90EA-F4CAFFE5701A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2E51C6-8445-4545-90EA-F4CAFFE5701A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2E51C6-8445-4545-90EA-F4CAFFE5701A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,6 +66,7 @@ Global
 		{2BD6C5EB-8711-42C6-94C0-A6EB8A724165} = {6C83A596-D32D-B35F-00DD-F0C99B673980}
 		{3A495B49-5F6A-4BAB-8617-D814AE33DA4A} = {A54DE101-35E6-48FD-B923-5FD7EAA8533E}
 		{668DF682-AC3D-4E74-9C97-25A629FDFDCC} = {A54DE101-35E6-48FD-B923-5FD7EAA8533E}
+		{7B2E51C6-8445-4545-90EA-F4CAFFE5701A} = {6C83A596-D32D-B35F-00DD-F0C99B673980}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04E4CB3B-5424-465C-B46C-ABABDF71C7C0}
