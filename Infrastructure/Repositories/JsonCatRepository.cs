@@ -133,5 +133,17 @@ namespace Infrastructure.Repositories
             _catCache.TryGetValue(name, out cat);
             return cat;
         }
+
+        public Cat[]? GetAllCats()
+        {
+            EnsureDataLoading();
+
+            Cat[] cats= new Cat[_catCache.Count];
+            for(int i=0; i< _catCache.Count; i++)
+            {
+                cats[i] = _catCache.Values.ElementAt(i);
+            }
+            return cats;
+        }
     }
 }

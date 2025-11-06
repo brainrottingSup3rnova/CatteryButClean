@@ -145,5 +145,10 @@ namespace Domain.Model.Entities
             Description = description;
             Id = new ValueObjects.IdCat(arrivalDate);
         }
+
+        public override string ToString()
+        {
+            return $"Cat [Name={Name}, Breed={Breed}, IsMale={IsMale}, BirthDate={BirthDate}, ArrivalDate={ArrivalDate}, AdoptionDate={AdoptionDate}, Description={Description}]";
+        }
     }
 }

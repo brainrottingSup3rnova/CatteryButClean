@@ -1,6 +1,7 @@
 ﻿using Application.UseCases;
 using Domain.Model.Entities;
 using Domain.Model.ValueObjects;
+using Infrastructure.Repositories;
 using System.Reflection.Metadata.Ecma335;
 
 namespace UIConsole
@@ -9,7 +10,8 @@ namespace UIConsole
     {
         static void Main(string[] args)
         {
-            Cattery cattery = new Cattery(null);
+            JsonCatRepository catRepository = new JsonCatRepository();
+            Cattery cattery = new Cattery(catRepository);
             Console.WriteLine("Hi, and welcome to our Cat Shelter Management System!");
             bool exit = false;
             while (!exit)
@@ -76,7 +78,7 @@ namespace UIConsole
                         break;
                     case "2":
                         Console.WriteLine("You chose to view all cats.");
-                        cattery.GetAllCats();
+                        Console.WriteLine(cattery.GetAllCats());
                         Console.WriteLine("Do you wish to adopt a cat?");
                         string adoptInput = Console.ReadLine();
                         if(adoptInput == "yes")
