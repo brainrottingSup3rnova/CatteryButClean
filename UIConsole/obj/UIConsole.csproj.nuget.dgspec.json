@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\UIConsole\\UIConsole.csproj": {}
+    "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\UIConsole\\UIConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj": {
+    "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\anna.tassinari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\obj\\",
+        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Domain\\Domain.csproj"
+              "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Domain\\Domain.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Domain\\Domain.csproj": {
+    "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\anna.tassinari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\anna.tassinari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -169,8 +169,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj"
+              "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj"
               }
             }
           }
@@ -210,14 +210,14 @@
         }
       }
     },
-    "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\UIConsole\\UIConsole.csproj": {
+    "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\UIConsole\\UIConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\UIConsole\\UIConsole.csproj",
+        "projectUniqueName": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\UIConsole\\UIConsole.csproj",
         "projectName": "UIConsole",
-        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\UIConsole\\UIConsole.csproj",
+        "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\UIConsole\\UIConsole.csproj",
         "packagesPath": "C:\\Users\\anna.tassinari\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\UIConsole\\obj\\",
+        "outputPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\UIConsole\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -239,11 +239,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Application\\Application.csproj"
+              "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Application\\Application.csproj"
               },
-              "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\ma ddove gli OERSI POLARI\\CatteryButClean\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

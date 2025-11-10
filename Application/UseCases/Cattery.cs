@@ -17,7 +17,6 @@ namespace Application.UseCases
         {
             _catteryRepository = catteryRepository;
         }
-
         public void AddCat(Cat cat)
         {
             if(string.IsNullOrWhiteSpace(cat.Name))
@@ -26,7 +25,6 @@ namespace Application.UseCases
             }
             _catteryRepository.AddCat(cat);
         }
-
         public void RegisterAdoption(Adoption adoption)
         {
             if(adoption == null)
@@ -35,7 +33,6 @@ namespace Application.UseCases
             }
             _catteryRepository.RegisterAdoption(adoption);
         }
-
         public void CancelAdoption(Adoption adoption)
         {
             if (adoption == null)
@@ -44,7 +41,6 @@ namespace Application.UseCases
             }
             _catteryRepository.CancelAdoption(adoption);
         }
-
         public void RegisterAdopter(Adopter adopter)
         {
             if(adopter == null)
@@ -53,7 +49,6 @@ namespace Application.UseCases
             }
             _catteryRepository.RegisterAdopter(adopter);
         }
-
         public Cat GetCatByName(string name)
         {
             if(string.IsNullOrWhiteSpace(name))
@@ -67,10 +62,17 @@ namespace Application.UseCases
             }
             else return cat;
         }
-
         public Cat[]? GetAllCats()
         {
             return _catteryRepository.GetAllCats();
+        }
+        public Adoption[]? GetAllAdoptions()
+        {
+            return _catteryRepository.GetAllAdoptions();
+        }
+        public Adopter[]? GetAllAdopters()
+        {
+            return _catteryRepository.GetAllAdopters();
         }
     }
 }

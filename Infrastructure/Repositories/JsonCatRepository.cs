@@ -145,5 +145,27 @@ namespace Infrastructure.Repositories
             }
             return cats;
         }
+
+        public Adoption[]? GetAllAdoptions()
+        {
+            EnsureDataLoading();
+            Adoption[] adoptions = new Adoption[_adoptionCache.Count];
+            for(int i=0; i< _adoptionCache.Count; i++)
+            {
+                adoptions[i] = _adoptionCache.Values.ElementAt(i);
+            }
+            return adoptions;
+        }
+
+        public Adopter[]? GetAllAdopters()
+        {
+            EnsureDataLoading();
+            Adopter[] adopters = new Adopter[_adopterCache.Count];
+            for(int i=0; i< _adopterCache.Count; i++)
+            {
+                adopters[i] = _adopterCache.Values.ElementAt(i);
+            }
+            return adopters;
+        }
     }
 }

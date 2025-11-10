@@ -9,28 +9,73 @@
         Background="LightCyan">
     <StackPanel>
         <Menu 
-        VerticalAlignment="Top"
-        Background="RoyalBlue"
-        Foreground="White"
-        Height="30"
-        >
+            VerticalAlignment="Top"
+            Background="RoyalBlue"
+            Foreground="White"
+            Height="30"
+            >
             <MenuItem Header="_Cats"
                   Margin="0,5,0,0"
                   FontFamily="Arial Rounded MT Bold"
                   FontSize="16"
-                  />
+                  >
+                <MenuItem Header="Add New Cat"
+                          FontFamily="Arial Rounded MT Bold"
+                          FontSize="14"
+                          Background="AliceBlue"
+                          Foreground="RoyalBlue"
+                          Click="AddCat_Click"
+                          />
+                <MenuItem Header="Manage cats"
+                          FontFamily="Arial Rounded MT Bold"
+                          FontSize="14"
+                          Background="AliceBlue"
+                          Foreground="RoyalBlue"
+                          Click="ManageCats_Click"
+                          />
+            </MenuItem>
             <Separator/>
             <MenuItem Header="_Adoptions"
-                  Margin="0,5,0,0"
-                  FontFamily="Arial Rounded MT Bold"
-                  FontSize="16"
-                    />
+                      Margin="0,5,0,0"
+                      FontFamily="Arial Rounded MT Bold"
+                      FontSize="16"
+                      >
+                <MenuItem Header="Register Adoption"
+                          FontFamily="Arial Rounded MT Bold"
+                          FontSize="14"
+                          Background="AliceBlue"
+                          Foreground="RoyalBlue"
+                          Click="RegisterAdoption_Click"
+                          />
+                <MenuItem Header="Manage Adoptions"
+                          FontFamily="Arial Rounded MT Bold"
+                          FontSize="14"
+                          Background="AliceBlue"
+                          Foreground="RoyalBlue"
+                          Click="ManageAdoptions_Click"
+                          />
+            </MenuItem>
             <Separator/>
             <MenuItem Header="_Adopters"
                   Margin="0,5,0,0"
                   FontFamily="Arial Rounded MT Bold"
                   FontSize="16"
-                  />
+                  >
+                <MenuItem Header="Add New Adopter"
+                          FontFamily="Arial Rounded MT Bold"
+                          FontSize="14"
+                          Background="AliceBlue"
+                          Foreground="RoyalBlue"
+                          Click="AddAdopter_Click"
+                          />
+                <MenuItem Header="Manage Adopters"
+                          FontFamily="Arial Rounded MT Bold"
+                          FontSize="14"
+                          Background="AliceBlue"
+                          Foreground="RoyalBlue"
+                          Click="ManageAdopters_Click"
+                          />
+            </MenuItem>
         </Menu>
         <StackPanel>
             <Label 
@@ -54,6 +99,7 @@
                 FontSize="18"
                 />
             <Label
+                x:Name="catsCountLabel"
                 Content=" "
                 FontWeight="Bold"
                 Foreground="ForestGreen"
@@ -66,6 +112,14 @@
             <Label
                 Content="Number of adoptions registered:"
                 FontSize="18"
+                />
+            <Label
+                x:Name="adoptionsCountLabel"
+                Content=" "
+                FontWeight="Bold"
+                Foreground="ForestGreen"
+                Margin="5,0,0,0"
+                FontSize="20"
                 />
         </StackPanel>
     </StackPanel>

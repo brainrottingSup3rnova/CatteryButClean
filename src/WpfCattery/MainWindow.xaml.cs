@@ -8,6 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Application;
+using Application.UseCases;
+using Infrastructure.Repositories;
 
 namespace WpfCattery
 {
@@ -16,9 +19,57 @@ namespace WpfCattery
     /// </summary>
     public partial class MainWindow : Window
     {
+        Cattery cattery;
+        JsonCatRepository jsonCatRepository = new JsonCatRepository();
+
         public MainWindow()
         {
             InitializeComponent();
+            cattery = new Cattery(jsonCatRepository);
+            adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length.ToString();
+            catsCountLabel.Content = cattery.GetAllCats().Length.ToString();
+        }
+
+        private void AddCat_Click(object sender, RoutedEventArgs e)
+        {
+            AddCatWindow addCatWindow = new AddCatWindow();
+            addCatWindow.ShowDialog();
+        }
+
+        private void ManageCats_Click(object sender, RoutedEventArgs e)
+        {
+            ManageCatsWindow manageCatsWindow = new ManageCatsWindow();
+            manageCatsWindow.ShowDialog();
+        }
+
+        private void RegisterAdoption_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterAdoptionWindow registerAdoptionWindow = new RegisterAdoptionWindow();
+            registerAdoptionWindow.ShowDialog();
+        }
+
+        private void ManageAdoptions_Click(object sender, RoutedEventArgs e)
+        {
+            ManageAdoptionsWindow manageAdoptionsWindow = new ManageAdoptionsWindow();
+            manageAdoptionsWindow.ShowDialog();
+        }
+
+        private void AddAdopter_Click(object sender, RoutedEventArgs e)
+        {
+            AddAdopterWindow addAdopterWindow = new AddAdopterWindow();
+            addAdopterWindow.ShowDialog();
+        }
+
+        private void ManageAdopters_Click(object sender, RoutedEventArgs e)
+        {
+            ManageAdoptersWindow manageAdoptersWindow = new ManageAdoptersWindow();
+            manageAdoptersWindow.ShowDialog();
+        }
+
+        private void RefreshCounts()
+        {
+            // This method would contain logic to refresh the counts displayed in the labels.
+            // For example, it could query a database or data source to get the current counts.
         }
     }
 }
