@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCattery"
         mc:Ignorable="d"
-        Title="ManageCatsWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="ManageCatsWindow" Height="450" Width="800"
+        Background="LightCyan">
+    <StackPanel>
+        <Label 
+            Content="Manage Cats"
+            FontFamily="Arial Rounded MT Bold"
+            FontSize="20"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0"
+            />
+        <DataGrid
+            x:Name="dataGridCats"
+            Width="400"
+            Margin="0,30,0,0"
+            AutoGenerateColumns="false">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="true"/>
+                <DataGridTextColumn Header="Breed" Binding="{Binding Breed}" IsReadOnly="true"/>
+                <DataGridCheckBoxColumn Header="Is male" Binding="{Binding IsMale}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Arrival date" Binding="{Binding ArrivalDate}" IsReadOnly="true"/>
+                <DataGridTextColumn Header="Birthdate" Binding="{Binding Birthdate}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" IsReadOnly="True"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button 
+                                Content="Adopt" 
+                                Background="LawnGreen" 
+                                Foreground="White" 
+                                FontFamily="Arial Rounded MT Bold"
+                                FontSize="14"
+                                Padding="5,2"
+                                Click="AdoptCat_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button
+            Height="30"
+            Width="100"
+            Margin="0,250,0,0"
+            Content="Go back"/>
+    </StackPanel>
 </Window>

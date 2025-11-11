@@ -26,19 +26,20 @@ namespace WpfCattery
         {
             InitializeComponent();
             cattery = new Cattery(jsonCatRepository);
-            adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length.ToString();
-            catsCountLabel.Content = cattery.GetAllCats().Length.ToString();
+            adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length;
+            catsCountLabel.Content = cattery.GetAllCats().Length;
         }
 
         private void AddCat_Click(object sender, RoutedEventArgs e)
         {
-            AddCatWindow addCatWindow = new AddCatWindow();
+            AddCatWindow addCatWindow = new AddCatWindow(cattery);
             addCatWindow.ShowDialog();
+            RefreshCounts();
         }
 
         private void ManageCats_Click(object sender, RoutedEventArgs e)
         {
-            ManageCatsWindow manageCatsWindow = new ManageCatsWindow();
+            ManageCatsWindow manageCatsWindow = new ManageCatsWindow(cattery);
             manageCatsWindow.ShowDialog();
         }
 
@@ -46,6 +47,7 @@ namespace WpfCattery
         {
             RegisterAdoptionWindow registerAdoptionWindow = new RegisterAdoptionWindow();
             registerAdoptionWindow.ShowDialog();
+            RefreshCounts();
         }
 
         private void ManageAdoptions_Click(object sender, RoutedEventArgs e)
@@ -66,10 +68,10 @@ namespace WpfCattery
             manageAdoptersWindow.ShowDialog();
         }
 
-        private void RefreshCounts()
+        public void RefreshCounts()
         {
-            // This method would contain logic to refresh the counts displayed in the labels.
-            // For example, it could query a database or data source to get the current counts.
+            adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length.ToString();
+            catsCountLabel.Content = cattery.GetAllCats().Length.ToString();
         }
     }
 }

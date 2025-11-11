@@ -65,6 +65,7 @@ namespace Infrastructure.Repositories
                 else
                 {   
                     _catCache.Add(cat.Name, cat);
+                    SaveData();
                 }
             }
         }
@@ -85,6 +86,7 @@ namespace Infrastructure.Repositories
                 else
                 {
                     _adoptionCache.Add(adoption.Cat.Name, adoption);
+                    SaveData();
                 }
             }
         }
@@ -105,6 +107,7 @@ namespace Infrastructure.Repositories
                 else
                 {
                     _adoptionCache.Remove(adoption.Cat.Name);
+                    SaveData();
                 }
             }
         }
@@ -121,6 +124,7 @@ namespace Infrastructure.Repositories
                 if(!_adopterCache.ContainsKey(adopter.Name))
                 {
                     _adopterCache.Add(adopter.Name, adopter);
+                    SaveData();
                 }
             }
         }

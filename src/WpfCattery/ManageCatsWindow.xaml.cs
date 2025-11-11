@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.UseCases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,17 @@ namespace WpfCattery
     /// </summary>
     public partial class ManageCatsWindow : Window
     {
-        public ManageCatsWindow()
+        private Cattery _cattery;
+        public ManageCatsWindow(Cattery cattery)
         {
             InitializeComponent();
+            _cattery = cattery;
+            dataGridCats.ItemsSource = _cattery.GetAllCats();    
+        }
+
+        private void AdoptCat_Click(object sender, EventArgs e)
+        {
+            //idk
         }
     }
 }
