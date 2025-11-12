@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCattery"
         mc:Ignorable="d"
-        Title="ManageAdoptersWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="ManageAdoptersWindow" Height="450" Width="800"
+        Background="LightCyan">
+    <StackPanel>
+        <Label
+            Content="Manage adopters"
+            HorizontalAlignment="Center"
+            FontFamily="Arial Rounded MT Bold"
+            FontSize="40"/>
+        <DataGrid
+            x:Name="dataGridAdopters"
+            Width="650"
+            Margin="0,30,0,0"
+            AutoGenerateColumns="false">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" IsReadOnly="true" Width="90"/>
+                <DataGridTextColumn Header="Surname" Binding="{Binding Surname}" IsReadOnly="true" Width="90"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}" IsReadOnly="true" Width="100"/>
+                <DataGridTextColumn Header="Phone number" Binding="{Binding PhoneNumber}" IsReadOnly="true" Width="100"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" IsReadOnly="true" Width="150"/>
+                <DataGridTextColumn Header="TIN" Binding="{Binding TIN}" IsReadOnly="true" Width="90"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button
+            Height="50"
+            Width="200"
+            Margin="0,250,0,0"
+            Content="Go back"
+            FontFamily="Arial Rounded MT Bold"
+            FontSize="20"
+            Background="LightPink"
+            Click="GoBackBtn_Click"/>
+    </StackPanel>
 </Window>

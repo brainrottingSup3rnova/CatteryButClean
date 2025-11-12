@@ -5,8 +5,110 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCattery"
         mc:Ignorable="d"
-        Title="AddAdopterWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="AddAdopterWindow" Height="450" Width="800"
+        Background="LightCyan">
+    <StackPanel>
+        <StackPanel>
+            <Label
+                Content="Name"
+                HorizontalAlignment="Center"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="14"
+                Margin="30,10,30,0"/>
+            <TextBox
+                x:Name="txtBoxName"
+                Width="400"
+                Height="30"/>
+        </StackPanel>
+        <StackPanel>
+            <Label
+                Content="Surname"
+                HorizontalAlignment="Center"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="14"
+                Margin="30,5,30,0"/>
+            <TextBox
+                x:Name="txtBoxSurname"
+                Width="400"
+                Height="30"/>
+        </StackPanel>
+        <StackPanel>
+                <Label
+                Content="Email"
+                HorizontalAlignment="Center"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="14"
+                Margin="30,5,30,0"/>
+            <TextBox
+                x:Name="txtBoxEmail"
+                Width="400"
+                Height="30"/>
+        </StackPanel>
+        <StackPanel>
+            <Label
+                Content="Phone number"
+                HorizontalAlignment="Center"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="14"
+                Margin="30,5,30,0"/>
+            <TextBox
+                x:Name="txtBoxPhoneNumber"
+                Width="400"
+                Height="30"/>
+        </StackPanel>
+        <StackPanel>
+            <Label
+                Content="Address (street / number / city / postal code)"
+                HorizontalAlignment="Center"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="14"
+                Margin="30,5,30,0"/>
+            <StackPanel
+                Orientation="Horizontal">
+                <TextBox
+                    x:Name="txtBoxStreet"
+                    Width="200"
+                    Height="30"
+                    Margin="150,0,0,0"/>
+                <TextBox
+                    x:Name="txtBoxCivicNumber"
+                    Width="50"
+                    Height="30"
+                    Margin="10,0,0,0"/>
+                <TextBox
+                    x:Name="txtBoxCity"
+                    Width="130"
+                    Height="30"
+                    Margin="10,0,0,0"/>
+                <TextBox
+                    x:Name="txtBoxPostalCode"
+                    Width="130"
+                    Height="30"
+                    Margin="10,0,0,0"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel>
+            <Label
+                Content="TIN"
+                HorizontalAlignment="Center"
+                FontFamily="Arial Rounded MT Bold"
+                FontSize="14"
+                Margin="30,5,30,0"/>
+            <TextBox
+                x:Name="txtBoxTin"
+                Width="400"
+                Height="30"/>
+        </StackPanel>
+        <Button
+            Content="Add Adopter"
+            Width="150"
+            Height="40"
+            Margin="0,10,0,0"
+            HorizontalAlignment="Center"
+            Background="LawnGreen"
+            Foreground="White"
+            FontFamily="Arial Rounded MT Bold"
+            FontSize="16"
+            Click="AddAdopterBtn_Click"/>
+    </StackPanel>
 </Window>

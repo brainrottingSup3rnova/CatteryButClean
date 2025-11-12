@@ -45,26 +45,26 @@ namespace WpfCattery
 
         private void RegisterAdoption_Click(object sender, RoutedEventArgs e)
         {
-            RegisterAdoptionWindow registerAdoptionWindow = new RegisterAdoptionWindow();
+            RegisterAdoptionWindow registerAdoptionWindow = new RegisterAdoptionWindow(cattery);
             registerAdoptionWindow.ShowDialog();
             RefreshCounts();
         }
 
         private void ManageAdoptions_Click(object sender, RoutedEventArgs e)
         {
-            ManageAdoptionsWindow manageAdoptionsWindow = new ManageAdoptionsWindow();
+            ManageAdoptionsWindow manageAdoptionsWindow = new ManageAdoptionsWindow(cattery);
             manageAdoptionsWindow.ShowDialog();
         }
 
         private void AddAdopter_Click(object sender, RoutedEventArgs e)
         {
-            AddAdopterWindow addAdopterWindow = new AddAdopterWindow();
+            AddAdopterWindow addAdopterWindow = new AddAdopterWindow(cattery);
             addAdopterWindow.ShowDialog();
         }
 
         private void ManageAdopters_Click(object sender, RoutedEventArgs e)
         {
-            ManageAdoptersWindow manageAdoptersWindow = new ManageAdoptersWindow();
+            ManageAdoptersWindow manageAdoptersWindow = new ManageAdoptersWindow(cattery);
             manageAdoptersWindow.ShowDialog();
         }
 

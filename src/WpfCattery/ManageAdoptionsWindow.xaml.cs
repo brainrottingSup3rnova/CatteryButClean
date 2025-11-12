@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.UseCases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,11 @@ namespace WpfCattery
     /// </summary>
     public partial class ManageAdoptionsWindow : Window
     {
-        public ManageAdoptionsWindow()
+        private Cattery _cattery;
+        public ManageAdoptionsWindow(Cattery cattery)
         {
             InitializeComponent();
+            _cattery = cattery;
         }
     }
 }

@@ -80,15 +80,17 @@
         <StackPanel>
             <Label 
                 Content="Welcome to the Cattery Management System!!" 
-                FontSize="24" 
+                FontSize="30" 
                 FontWeight="Bold" 
+                FontFamily="Arial Rounded MT Bold"
                 Foreground="RoyalBlue" 
                 HorizontalAlignment="Left" 
                 Margin="0,20,0,20"/>
             <Label 
                 Content="Use the menu above to navigate through the application." 
-                FontSize="16" 
+                FontSize="20" 
                 Foreground="DarkSlateGray" 
+                FontFamily="Arial Rounded MT Bold"
                 HorizontalAlignment="Left" 
                 Margin="5,-30,0,10"/>
         </StackPanel>
@@ -96,30 +98,32 @@
             Orientation="Horizontal">
             <Label
                 Content="Number of cats in the shelter rn:"
-                FontSize="18"
-                />
+                FontSize="30"
+                FontFamily="Arial Rounded MT Bold"/>
             <Label
                 x:Name="catsCountLabel"
                 Content=" "
                 FontWeight="Bold"
+                FontFamily="Arial Rounded MT Bold"
                 Foreground="ForestGreen"
                 Margin="5,0,0,0"
-                FontSize="20"
-                />
+                FontSize="30"/>
         </StackPanel>
         <StackPanel
             Orientation="Horizontal">
             <Label
                 Content="Number of adoptions registered:"
-                FontSize="18"
+                FontSize="30"
+                FontFamily="Arial Rounded MT Bold"
                 />
             <Label
                 x:Name="adoptionsCountLabel"
                 Content=" "
                 FontWeight="Bold"
                 Foreground="ForestGreen"
+                FontFamily="Arial Rounded MT Bold"
                 Margin="5,0,0,0"
-                FontSize="20"
+                FontSize="30"
                 />
         </StackPanel>
     </StackPanel>

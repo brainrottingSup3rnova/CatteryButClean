@@ -49,30 +49,33 @@ namespace Application.UseCases
             }
             _catteryRepository.RegisterAdopter(adopter);
         }
-        public Cat GetCatByName(string name)
+        public CatDto GetCatByName(string name)
         {
             if(string.IsNullOrWhiteSpace(name))
             {
                 throw new ArgumentException("Cat name cannot be null or empty.");
             }
-            Cat? cat = _catteryRepository.GetByName(name);
+            CatDto? cat = _catteryRepository.GetByName(name).ToCatDto();
             if(cat == null)
             {
                 throw new KeyNotFoundException($"Cat with name '{name}' not found.");
             }
             else return cat;
         }
-        public Cat[]? GetAllCats()
+        public CatDto[]? GetAllCats()
         {
-            return _catteryRepository.GetAllCats();
+            Cat[] cats = _catteryRepository.GetAllCats();
+            return cats.Select(c => c.ToCatDto()).ToArray();
         }
-        public Adoption[]? GetAllAdoptions()
+        public AdoptionDto[]? GetAllAdoptions()
         {
-            return _catteryRepository.GetAllAdoptions();
+            Adoption[] adoptions = _catteryRepository.GetAllAdoptions();
+            return adoptions.Select(c => c.ToAdoptionDto()).ToArray();
         }
-        public Adopter[]? GetAllAdopters()
+        public AdopterDto[]? GetAllAdopters()
         {
-            return _catteryRepository.GetAllAdopters();
+            Adopter[] adopters = _catteryRepository.GetAllAdopters();
+            return adopters.Select(c => c.ToAdopterDto()).ToArray();
         }
     }
 }

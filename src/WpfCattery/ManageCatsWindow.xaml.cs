@@ -30,7 +30,14 @@ namespace WpfCattery
 
         private void AdoptCat_Click(object sender, EventArgs e)
         {
-            //idk
+            this.Close();
+            RegisterAdoptionWindow registerAdoptionWindow = new RegisterAdoptionWindow(_cattery);
+            registerAdoptionWindow.ShowDialog();
+        }
+
+        private void GoBackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
