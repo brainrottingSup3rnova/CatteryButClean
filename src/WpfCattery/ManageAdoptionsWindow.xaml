@@ -5,8 +5,49 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCattery"
         mc:Ignorable="d"
-        Title="ManageAdoptionsWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="ManageAdoptionsWindow" Height="450" Width="800"
+        Background="Lightcyan">
+    <StackPanel>
+        <Label
+            Content="Manage adoptions"
+            FontFamily="Arial Rounded MT Bold"
+            FontSize="40"
+            HorizontalAlignment="Center"
+            Margin="0,10,0,0"/>
+        <DataGrid
+            x:Name="dataGridAdoptions"
+            Width="700"
+            Margin="0,30,0,0"
+            AutoGenerateColumns="false">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Adopter's names" Binding="{Binding AdopterName}" IsReadOnly="True" Width="170"/>
+                <DataGridTextColumn Header="Adopter's surname" Binding="{Binding AdopterSurname}" IsReadOnly="True" Width="170"/>
+                <DataGridTextColumn Header="Cat's name" Binding="{Binding CatName}" IsReadOnly="True" Width="120"/>
+                <DataGridTextColumn Header="Adoption date" Binding="{Binding AdoptionDate}" IsReadOnly="True" Width="150"/>
+                <DataGridTemplateColumn>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button 
+                                Content="Adopt" 
+                                Background="LawnGreen" 
+                                Foreground="White" 
+                                FontFamily="Arial Rounded MT Bold"
+                                FontSize="14"
+                                Padding="5,2"
+                                Click="RemoveAdoption_Click"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button
+            Height="50"
+            Width="200"
+            Margin="0,250,0,0"
+            Content="Go back"
+            FontFamily="Arial Rounded MT Bold"
+            FontSize="20"
+            Background="LightPink"
+            Click="GoBackBtn_Click"/>
+    </StackPanel>
 </Window>

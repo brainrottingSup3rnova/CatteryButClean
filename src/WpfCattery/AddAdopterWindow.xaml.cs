@@ -1,6 +1,5 @@
 ﻿using Application.UseCases;
-using Domain.Model.Entities;
-using Domain.Model.ValueObjects;
+using Application.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,16 +32,14 @@ namespace WpfCattery
         {
             string name = txtBoxName.Text;
             string surname = txtBoxSurname.Text;
-            Email email = new Email(txtBoxEmail.Text);
-            PhoneNumber phoneNumber = new PhoneNumber(txtBoxPhoneNumber.Text);
+            string email = txtBoxEmail.Text;
+            string phoneNumber = txtBoxPhoneNumber.Text;
             string street = txtBoxStreet.Text;
             string civicNumber = txtBoxCivicNumber.Text;    
             string city = txtBoxCity.Text;
             string postalCode = txtBoxPostalCode.Text;
-            Address address = new Address(street, civicNumber, city, postalCode);
-            TIN tin = new TIN(txtBoxTin.Text);
-            Adopter adopter = new Adopter(name, surname, email, phoneNumber, address, tin);
-            _cattery.RegisterAdopter(adopter);
+            string tin = txtBoxTin.Text;
+            AdopterDto adopter = new AdopterDto(name, surname, email, phoneNumber, street, civicNumber, city, postalCode ,tin);
             MessageBox.Show("Adopter added successfully!");
             this.Close();
         }

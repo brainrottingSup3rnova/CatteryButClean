@@ -1,5 +1,5 @@
-﻿using Application.UseCases;
-using Domain.Model.Entities;
+﻿using Application.Dto;
+using Application.UseCases;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +16,9 @@ using System.Windows.Shapes;
 
 namespace WpfCattery
 {
-    /// <summary>
-    /// Logica di interazione per AddCatWindow.xaml
-    /// </summary>
+    /// <summary>  
+    /// Logica di interazione per AddCatWindow.xaml  
+    /// </summary>  
     public partial class AddCatWindow : Window
     {
         private Cattery _cattery;
@@ -44,8 +44,10 @@ namespace WpfCattery
             DateTime arrivalDate = ArrivalDatePicker.SelectedDate.HasValue ? ArrivalDatePicker.SelectedDate.Value : DateTime.MinValue;
             DateTime birthdate = BirthdatePicker.SelectedDate.HasValue ? BirthdatePicker.SelectedDate.Value : DateTime.MinValue;
             string description = DescriptionTextBox.Text;
-            Cat cat = new Cat(name, breed, gender, arrivalDate, null, birthdate, description);
-            _cattery.AddCat(cat);
+            
+            //CatDto cat = new CatDto(name, breed, gender, arrivalDate, null, birthdate, description);
+            //how should i even insert the id...
+            //_cattery.AddCat(cat);
             MessageBox.Show("Cat added successfully!");
             Close();
         }

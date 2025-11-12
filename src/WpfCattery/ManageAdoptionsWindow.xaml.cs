@@ -1,4 +1,5 @@
-﻿using Application.UseCases;
+﻿using Application.Dto;
+using Application.UseCases;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,9 +16,6 @@ using System.Windows.Shapes;
 
 namespace WpfCattery
 {
-    /// <summary>
-    /// Logica di interazione per ManageAdoptionsWindow.xaml
-    /// </summary>
     public partial class ManageAdoptionsWindow : Window
     {
         private Cattery _cattery;
@@ -25,6 +23,22 @@ namespace WpfCattery
         {
             InitializeComponent();
             _cattery = cattery;
+            dataGridAdoptions.ItemsSource = _cattery.GetAllAdoptions();
+        }
+
+        private void GoBackBtn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void RemoveAdoption_Click(object sender, RoutedEventArgs e)
+        {
+            if (e.Source is Button button && button.DataContext is Application.Dto.AdoptionDto adoptionDto)
+            {
+                _cattery.CancelAdoption(adoptionDto);
+                MessageBox.Show("Adoption removed successfully.");
+                dataGridAdoptions.ItemsSource = _cattery.GetAllAdoptions();
+            } 
         }
     }
 }

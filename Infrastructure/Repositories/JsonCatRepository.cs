@@ -129,7 +129,7 @@ namespace Infrastructure.Repositories
             }
         }
 
-        public Cat? GetByName(string name)
+        public Cat? GetCatByName(string name)
         {
             EnsureDataLoading();
 
@@ -148,6 +148,14 @@ namespace Infrastructure.Repositories
                 cats[i] = _catCache.Values.ElementAt(i);
             }
             return cats;
+        }
+
+        public Adoption? GetAdoption(string catName)
+        {
+            EnsureDataLoading();
+            Adoption? adoption;
+            _adoptionCache.TryGetValue(catName, out adoption);
+            return adoption;
         }
 
         public Adoption[]? GetAllAdoptions()
