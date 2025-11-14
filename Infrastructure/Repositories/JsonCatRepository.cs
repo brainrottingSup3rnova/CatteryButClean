@@ -13,7 +13,9 @@ namespace Infrastructure.Repositories
 {
     public class JsonCatRepository : ICatteryRepository
     {
-        private readonly string _filePath = "cat.json";
+        private readonly string _filePathCat = "cat.json";
+        private readonly string _filePathAdoption = "adoption.json";
+        private readonly string _filePathAdopter = "adopter.json";
         private readonly Dictionary<string, Cat> _catCache = new(StringComparer.OrdinalIgnoreCase);
         private readonly Dictionary<string, Adoption> _adoptionCache = new(StringComparer.OrdinalIgnoreCase);
         private readonly Dictionary<string, Adopter> _adopterCache = new(StringComparer.OrdinalIgnoreCase);
@@ -23,19 +25,43 @@ namespace Infrastructure.Repositories
         {
             if(_isLoaded) return;
 
-            if(!File.Exists(_filePath))
+            if(!File.Exists(_filePathCat) || !File.Exists(_filePathAdopter) || !File.Exists(_filePathAdoption))
             {
                 _isLoaded = true;
                 return;
             }
 
-            var jsonData = File.ReadAllText(_filePath);
-            var dtos = JsonSerializer.Deserialize<List<CatPersistenceDto>>(jsonData) ?? new List<CatPersistenceDto>();
-            
-            foreach(var dto in dtos)
+            var catJsonData = File.ReadAllText(_filePathCat);
+            var adopterJsonData = File.ReadAllText(_filePathAdopter);
+            var adoptionJsonData = File.ReadAllText(_filePathAdoption);
+            var catDtos = JsonSerializer.Deserialize<List<CatPersistenceDto>>(catJsonData) ?? new List<CatPersistenceDto>();
+            var adoptionDtos = JsonSerializer.Deserialize<List<AdoptionPersistenceDto>>(adoptionJsonData) ?? new List<AdoptionPersistenceDto>();
+            var adopterDtos = JsonSerializer.Deserialize<List<AdopterPersistenceDto>>(adopterJsonData) ?? new List<AdopterPersistenceDto>();
+
+
+            foreach (var dto in catDtos)
             {
                 Cat cat = dto.ToCatPersistence();
                 _catCache[cat.Name] = cat;
+            }
+
+            foreach (var dto in adopterDtos)
+            {
+                Adopter adopter = dto.ToAdopterPersistence();
+                _adopterCache[adopter.Name] = adopter;
+            }
+
+            foreach (var dto in adoptionDtos)
+            {
+                Adopter? adopter = null;
+                Cat? cat = null;
+                _adopterCache.TryGetValue(dto.Adopter.Name, out adopter);
+                _catCache.TryGetValue(dto.Cat.name, out cat);
+                if (adopter != null && cat != null)
+                {
+                    Adoption adoption = dto.ToAdoptionPersistence();
+                    _adoptionCache[cat.Name] = adoption;
+                }
             }
 
             _isLoaded = true;
@@ -43,9 +69,15 @@ namespace Infrastructure.Repositories
 
         private void SaveData()
         {
-            var dtos = _catCache.Values.Select(a => a.ToCatPersistenceDto()).ToList();
-            var jsonData = JsonSerializer.Serialize(dtos, new JsonSerializerOptions { WriteIndented = true });
-            File.WriteAllText(_filePath, jsonData);
+            var catDtos = _catCache.Values.Select(a => a.ToCatPersistenceDto()).ToList();
+            var adoptionDtos = _adoptionCache.Values.Select(a => a.ToAdoptionPersistenceDto()).ToList();
+            var adopterDtos = _adopterCache.Values.Select(a => a.ToAdopterPersistenceDto()).ToList();
+            var catJsonData = JsonSerializer.Serialize(catDtos, new JsonSerializerOptions { WriteIndented = true });
+            var adoptionJsonData = JsonSerializer.Serialize(adoptionDtos, new JsonSerializerOptions { WriteIndented = true });
+            var adopterJsonData = JsonSerializer.Serialize(adopterDtos, new JsonSerializerOptions { WriteIndented = true });
+            File.WriteAllText(_filePathCat, catJsonData);
+            File.WriteAllText(_filePathAdoption, adoptionJsonData);
+            File.WriteAllText(_filePathAdopter, adopterJsonData);
 
         }
 
@@ -178,6 +210,21 @@ namespace Infrastructure.Repositories
                 adopters[i] = _adopterCache.Values.ElementAt(i);
             }
             return adopters;
+        }
+
+        public Adopter? GetAdopterByName(string name)
+        {
+            EnsureDataLoading();
+            Adopter? adopter;
+            _adopterCache.TryGetValue(name, out adopter);
+            if(adopter != null)
+            {
+                return adopter;
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }

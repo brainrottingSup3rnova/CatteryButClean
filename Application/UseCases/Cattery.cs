@@ -67,6 +67,21 @@ namespace Application.UseCases
             }
             else return cat;
         }
+
+        public AdopterDto GetAdopterByName(string name)
+        {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentException("Adopter name cannot be null or empty.");
+            }
+            AdopterDto? adopter = _catteryRepository.GetAdopterByName(name).ToAdopterDto();
+            if (adopter == null)
+            {
+                throw new KeyNotFoundException($"Adopter with name '{name}' not found.");
+            }
+            else return adopter;
+        }
+
         public AdoptionDto GetAdoption(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
@@ -80,21 +95,23 @@ namespace Application.UseCases
             }
             else return adoption;
         }
+
         public CatDto[]? GetAllCats()
         {
             Cat[] cats = _catteryRepository.GetAllCats();
             return cats.Select(c => c.ToCatDto()).ToArray();
         }
+
         public AdoptionDto[]? GetAllAdoptions()
         {
             Adoption[] adoptions = _catteryRepository.GetAllAdoptions();
             return adoptions.Select(c => c.ToAdoptionDto()).ToArray();
         }
+
         public AdopterDto[]? GetAllAdopters()
         {
             Adopter[] adopters = _catteryRepository.GetAllAdopters();
             return adopters.Select(c => c.ToAdopterDto()).ToArray();
-        }
-        
+        } 
     }
 }

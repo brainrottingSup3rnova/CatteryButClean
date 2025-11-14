@@ -28,8 +28,8 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button 
-                                Content="Adopt" 
-                                Background="LawnGreen" 
+                                Content="Remove" 
+                                Background="PaleVioletRed" 
                                 Foreground="White" 
                                 FontFamily="Arial Rounded MT Bold"
                                 FontSize="14"

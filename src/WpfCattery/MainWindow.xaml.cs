@@ -26,8 +26,9 @@ namespace WpfCattery
         {
             InitializeComponent();
             cattery = new Cattery(jsonCatRepository);
-            adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length;
             catsCountLabel.Content = cattery.GetAllCats().Length;
+            cattery.GetAllAdopters();
+            adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length;  
         }
 
         private void AddCat_Click(object sender, RoutedEventArgs e)

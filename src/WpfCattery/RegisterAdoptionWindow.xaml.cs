@@ -42,7 +42,14 @@ namespace WpfCattery
                 return;
             }
             var selectedCatName = (CatDto)comboBoxCats.SelectedItem;
+            CatDto catToAdopt = _cattery.GetCatByName(selectedCatName.Name);
             var selectedAdopterName = (AdopterDto)comboBoxAdopters.SelectedItem;
+            AdopterDto adopter = _cattery.GetAdopterByName(selectedAdopterName.Name);
+            var adoptionDate = datePickerAdoptionDate.SelectedDate ?? DateTime.Now;
+            AdoptionDto adoption = new AdoptionDto(adopter, catToAdopt, adoptionDate);
+            _cattery.RegisterAdoption(adoption);
+            MessageBox.Show($"Adoption of '{catToAdopt.Name}' by '{adopter.Name}' registered successfully!");
+            this.Close();
         }
 
         private void GoBackBtn_Click(object sender, RoutedEventArgs e)

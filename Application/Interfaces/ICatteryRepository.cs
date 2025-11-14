@@ -19,5 +19,6 @@ namespace Application.Interfaces
         Adoption? GetAdoption(string name);
         Adoption[]? GetAllAdoptions ();
         Adopter[]? GetAllAdopters ();
+        Adopter? GetAdopterByName (string name);
     }
 }
