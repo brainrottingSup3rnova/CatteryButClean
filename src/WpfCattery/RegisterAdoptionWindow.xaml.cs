@@ -43,7 +43,6 @@ namespace WpfCattery
             }
             var selectedCatName = (CatDto)comboBoxCats.SelectedItem;
             var selectedAdopterName = (AdopterDto)comboBoxAdopters.SelectedItem;
-            //idk how to proceed...
         }
 
         private void GoBackBtn_Click(object sender, RoutedEventArgs e)

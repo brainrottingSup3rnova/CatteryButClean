@@ -134,7 +134,7 @@ namespace Domain.Model.Entities
                 _description = value;
             }
         }
-        public Cat(string name, string breed, bool isMale, DateTime arrivalDate, DateTime? adoptionDate, DateTime? birthDate, string? description)
+        public Cat(string name, string breed, bool isMale, DateTime arrivalDate, DateTime? adoptionDate, DateTime? birthDate, string? description, string? id)
         {
             Name = name;
             Breed = breed;
@@ -143,7 +143,14 @@ namespace Domain.Model.Entities
             AdoptionDate = adoptionDate;
             BirthDate = birthDate;
             Description = description;
-            Id = new ValueObjects.IdCat(arrivalDate);
+            if(id == null)
+            {
+                Id = new ValueObjects.IdCat(arrivalDate);
+            }
+            else
+            {
+                Id = new IdCat(id);
+            }
         }
 
         public override string ToString()

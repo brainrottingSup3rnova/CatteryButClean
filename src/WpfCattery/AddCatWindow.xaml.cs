@@ -44,10 +44,9 @@ namespace WpfCattery
             DateTime arrivalDate = ArrivalDatePicker.SelectedDate.HasValue ? ArrivalDatePicker.SelectedDate.Value : DateTime.MinValue;
             DateTime birthdate = BirthdatePicker.SelectedDate.HasValue ? BirthdatePicker.SelectedDate.Value : DateTime.MinValue;
             string description = DescriptionTextBox.Text;
-            
-            //CatDto cat = new CatDto(name, breed, gender, arrivalDate, null, birthdate, description);
-            //how should i even insert the id...
-            //_cattery.AddCat(cat);
+
+            CatDto cat = new CatDto(name, breed, gender, arrivalDate, null, birthdate, description, null);
+            _cattery.AddCat(cat);
             MessageBox.Show("Cat added successfully!");
             Close();
         }

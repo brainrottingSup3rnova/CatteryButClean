@@ -9,18 +9,18 @@ namespace Domain.Model.ValueObjects
 {
     public record Email
     {
-        string value;
+        public string Value;
         public Email(string value)
         {
             if(value.Contains("@") && value.Contains("."))
             {
-                this.value = value;
+                Value = value;
             }
             else
             {
                 throw new ArgumentException("Invalid email format. It should contain '@' and '.' characters.");
             }
         }
-        public override string ToString() => value;
+        public override string ToString() => Value;
     }
 }

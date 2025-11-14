@@ -18,10 +18,13 @@ namespace Infrastructure.Mapper
             return new AdopterPersistenceDto(
                 adopter.Name,
                 adopter.Surname,
-                adopter.Email,
-                adopter.PhoneNumber,
-                adopter.Address,
-                adopter.TIN
+                adopter.Email.Value,
+                adopter.PhoneNumber.Value,
+                adopter.Address.Street,
+                adopter.Address.CivicNumber,
+                adopter.Address.City,
+                adopter.Address.PostalCode,
+                adopter.TIN.Value
             );
         }
 
@@ -34,10 +37,10 @@ namespace Infrastructure.Mapper
             else return new Adopter(
                 adopterPersistenceDto.Name,
                 adopterPersistenceDto.Surname,
-                adopterPersistenceDto.Email,
-                adopterPersistenceDto.PhoneNumber,
-                adopterPersistenceDto.Address,
-                adopterPersistenceDto.TIN
+                new Email(adopterPersistenceDto.Email),
+                new PhoneNumber(adopterPersistenceDto.PhoneNumber),
+                new Address(adopterPersistenceDto.street,adopterPersistenceDto.civicNumber,adopterPersistenceDto.city,adopterPersistenceDto.postalCode),
+                new TIN(adopterPersistenceDto.TIN)
             );
         }
     }

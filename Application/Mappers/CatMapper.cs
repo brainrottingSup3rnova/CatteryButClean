@@ -24,7 +24,8 @@ namespace Application.Mappers
                 catDto.ArrivalDate,
                 catDto.AdoptionDate,
                 catDto.BirthDate,
-                catDto.Description
+                catDto.Description,
+                catDto.Id
             );
         }
         
@@ -42,7 +43,7 @@ namespace Application.Mappers
                 cat.AdoptionDate,
                 cat.BirthDate,
                 cat.Description,
-                cat.Id
+                cat.Id.Value
             );
         }
     }

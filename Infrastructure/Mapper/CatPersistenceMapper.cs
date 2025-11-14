@@ -23,7 +23,8 @@ namespace Infrastructure.Mapper
                 arrivalDate: cat.ArrivalDate,
                 adoptionDate: cat.AdoptionDate,
                 birthDate: cat.BirthDate,
-                description: cat.Description
+                description: cat.Description,
+                id: cat.Id.Value
                 );
         }
 
@@ -40,7 +41,8 @@ namespace Infrastructure.Mapper
                 catPersistenceDto.arrivalDate,
                 catPersistenceDto.adoptionDate,
                 catPersistenceDto.birthDate,
-                catPersistenceDto.description
+                catPersistenceDto.description,
+                catPersistenceDto.id
             );
         }
     }

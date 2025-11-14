@@ -40,6 +40,7 @@ namespace WpfCattery
             string postalCode = txtBoxPostalCode.Text;
             string tin = txtBoxTin.Text;
             AdopterDto adopter = new AdopterDto(name, surname, email, phoneNumber, street, civicNumber, city, postalCode ,tin);
+            _cattery.RegisterAdopter(adopter);   
             MessageBox.Show("Adopter added successfully!");
             this.Close();
         }

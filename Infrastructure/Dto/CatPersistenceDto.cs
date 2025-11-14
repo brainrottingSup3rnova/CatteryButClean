@@ -13,6 +13,7 @@ namespace Infrastructure.Dto
         DateTime arrivalDate,
         DateTime? adoptionDate,
         DateTime? birthDate,
-        string? description
+        string? description,
+        string? id
         );
 }
