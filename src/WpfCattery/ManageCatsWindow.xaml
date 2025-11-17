@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCattery"
         mc:Ignorable="d"
-        Title="ManageCatsWindow" Height="450" Width="800"
-        Background="LightCyan">
+        Title="ManageCatsWindow" Height="450" Width="700"
+        Background="#FFBCB5">
     <StackPanel>
         <Label 
             Content="Manage Cats"
@@ -14,6 +14,7 @@
             FontSize="40"
             HorizontalAlignment="Center"
             Margin="0,10,0,0"
+            Foreground="#C97D60"
             />
         <DataGrid
             x:Name="dataGridCats"
@@ -32,8 +33,8 @@
                         <DataTemplate>
                             <Button 
                                 Content="Adopt" 
-                                Background="LawnGreen" 
-                                Foreground="White" 
+                                Background="#F2E5D7" 
+                                Foreground="#63372C" 
                                 FontFamily="Arial Rounded MT Bold"
                                 FontSize="14"
                                 Padding="5,2"
@@ -50,7 +51,14 @@
             Content="Go back"
             FontFamily="Arial Rounded MT Bold"
             FontSize="20"
-            Background="LightPink"
-            Click="GoBackBtn_Click"/>
+            Background="#F2E5D7"
+            Foreground="#63372C"
+            Click="GoBackBtn_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </StackPanel>
 </Window>

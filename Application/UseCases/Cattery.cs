@@ -27,6 +27,15 @@ namespace Application.UseCases
             _catteryRepository.AddCat(cat.ToCat());
         }
 
+        public void RemoveCat(CatDto cat)
+        {
+            if (string.IsNullOrWhiteSpace(cat.Name))
+            {
+                throw new ArgumentException("Cat name cannot be null or empty.");
+            }
+            _catteryRepository.RemoveCat(cat.ToCat());
+        }
+
         public void RegisterAdoption(AdoptionDto adoption)
         {
             if(adoption == null)

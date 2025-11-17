@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfCattery"
         mc:Ignorable="d"
-        Title="ManageAdoptionsWindow" Height="450" Width="800"
-        Background="Lightcyan">
+        Title="ManageAdoptionsWindow" Height="450" Width="700"
+        Background="#FFBCB5">
     <StackPanel>
         <Label
             Content="Manage adoptions"
@@ -16,25 +16,31 @@
             Margin="0,10,0,0"/>
         <DataGrid
             x:Name="dataGridAdoptions"
-            Width="700"
+            Width="500"
             Margin="0,30,0,0"
             AutoGenerateColumns="false">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Adopter's names" Binding="{Binding AdopterName}" IsReadOnly="True" Width="170"/>
-                <DataGridTextColumn Header="Adopter's surname" Binding="{Binding AdopterSurname}" IsReadOnly="True" Width="170"/>
-                <DataGridTextColumn Header="Cat's name" Binding="{Binding CatName}" IsReadOnly="True" Width="120"/>
-                <DataGridTextColumn Header="Adoption date" Binding="{Binding AdoptionDate}" IsReadOnly="True" Width="150"/>
+                <DataGridTextColumn Header="Adopter's name" Binding="{Binding Adopter.Name}" IsReadOnly="True" Width="100"/>
+                <DataGridTextColumn Header="Adopter's surname" Binding="{Binding Adopter.Surname}" IsReadOnly="True" Width="110"/>
+                <DataGridTextColumn Header="Cat's name" Binding="{Binding Cat.Name}" IsReadOnly="True" Width="100"/>
+                <DataGridTextColumn Header="Adoption date" Binding="{Binding AdoptionDate}" IsReadOnly="True" Width="120"/>
                 <DataGridTemplateColumn>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button 
-                                Content="Remove" 
-                                Background="PaleVioletRed" 
-                                Foreground="White" 
+                                Content="Remove"
+                                Background="#F2E5D7"
+                                Foreground="#63372C"
                                 FontFamily="Arial Rounded MT Bold"
                                 FontSize="14"
                                 Padding="5,2"
-                                Click="RemoveAdoption_Click"/>
+                                Click="RemoveAdoption_Click">
+                                <Button.Resources>
+                                    <Style TargetType="Border">
+                                        <Setter Property="CornerRadius" Value="10"/>
+                                    </Style>
+                                </Button.Resources>
+                            </Button>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
@@ -47,7 +53,14 @@
             Content="Go back"
             FontFamily="Arial Rounded MT Bold"
             FontSize="20"
-            Background="LightPink"
-            Click="GoBackBtn_Click"/>
+            Background="#F2E5D7"
+            Foreground="#63372C"
+            Click="GoBackBtn_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </StackPanel>
 </Window>

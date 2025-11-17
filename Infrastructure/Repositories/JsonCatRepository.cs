@@ -78,7 +78,6 @@ namespace Infrastructure.Repositories
             File.WriteAllText(_filePathCat, catJsonData);
             File.WriteAllText(_filePathAdoption, adoptionJsonData);
             File.WriteAllText(_filePathAdopter, adopterJsonData);
-
         }
 
         public void AddCat(Cat cat)
@@ -102,6 +101,27 @@ namespace Infrastructure.Repositories
             }
         }
 
+        public void RemoveCat(Cat cat)
+        {
+            if(cat == null)
+            {
+                throw new ArgumentNullException("Cat cannot be null.");
+            }
+            else
+            {
+                EnsureDataLoading();
+                if(!_catCache.ContainsKey(cat.Name))
+                {
+                    throw new InvalidOperationException($"The cat '{cat.Name}' does not exist.");
+                }
+                else
+                {
+                    _catCache.Remove(cat.Name);
+                    SaveData();
+                }
+            }
+        }
+
         public void RegisterAdoption(Adoption adoption)
         {
             if(adoption == null)
@@ -119,6 +139,7 @@ namespace Infrastructure.Repositories
                 {
                     _adoptionCache.Add(adoption.Cat.Name, adoption);
                     SaveData();
+                    RemoveCat(adoption.Cat);
                 }
             }
         }
@@ -140,6 +161,7 @@ namespace Infrastructure.Repositories
                 {
                     _adoptionCache.Remove(adoption.Cat.Name);
                     SaveData();
+                    AddCat(adoption.Cat);
                 }
             }
         }

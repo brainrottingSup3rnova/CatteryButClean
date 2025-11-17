@@ -42,6 +42,7 @@ namespace WpfCattery
         {
             ManageCatsWindow manageCatsWindow = new ManageCatsWindow(cattery);
             manageCatsWindow.ShowDialog();
+            RefreshCounts();
         }
 
         private void RegisterAdoption_Click(object sender, RoutedEventArgs e)
@@ -55,24 +56,28 @@ namespace WpfCattery
         {
             ManageAdoptionsWindow manageAdoptionsWindow = new ManageAdoptionsWindow(cattery);
             manageAdoptionsWindow.ShowDialog();
+            RefreshCounts();
         }
 
         private void AddAdopter_Click(object sender, RoutedEventArgs e)
         {
             AddAdopterWindow addAdopterWindow = new AddAdopterWindow(cattery);
             addAdopterWindow.ShowDialog();
+            RefreshCounts();
         }
 
         private void ManageAdopters_Click(object sender, RoutedEventArgs e)
         {
             ManageAdoptersWindow manageAdoptersWindow = new ManageAdoptersWindow(cattery);
             manageAdoptersWindow.ShowDialog();
+            RefreshCounts();
         }
 
         public void RefreshCounts()
         {
             adoptionsCountLabel.Content = cattery.GetAllAdoptions().Length.ToString();
             catsCountLabel.Content = cattery.GetAllCats().Length.ToString();
+            adoptersCountLabel.Content = cattery.GetAllAdopters().Length.ToString();
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OLcSp8hTxNo=",
+  "dgSpecHash": "eB2e4//JWX4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\anna.tassinari\\Desktop\\Nuova cartella\\CatteryButClean\\DomainTest\\TestDomain.csproj",
+  "projectFilePath": "C:\\Users\\anna.tassinari\\Desktop\\orsi poolari MA DDOVE\\CatteryButClean\\DomainTest\\TestDomain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anna.tassinari\\.nuget\\packages\\microsoft.applicationinsights\\2.22.0\\microsoft.applicationinsights.2.22.0.nupkg.sha512",
     "C:\\Users\\anna.tassinari\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
