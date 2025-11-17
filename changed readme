@@ -1,0 +1,11 @@
+🐾 CatteryButClean
+Un piccolo progetto per gestire una cattery digitale (ovvero un allevamento di gatti virtuale) in modo pulito, leggibile e mantenibile. Il focus è sulla chiarezza del codice, la separazione delle responsabilità e la semplicità d’uso.
+
+✨ Caratteristiche principali
+🐱 Gestione di gatti con attributi chiari (nome, età, razza, ecc.)
+
+📦 Struttura del codice organizzata e modulare
+
+🧹 Approccio “clean code”: leggibilità e manutenibilità al centro
+
+🔧 Facilmente estendibile per nuove funzionalità (es. adozioni, alimentazione, cure)
