@@ -9,7 +9,7 @@
         Background="#FFBCB5">
     <StackPanel>
         <StackPanel
-            HorizontalAlignment="Center"
+            HorizontalAlignment="Left"
             Width="400"
             >
             <Label 
@@ -26,10 +26,13 @@
                 FontSize="14"
                 Margin="0,0,0,0"
                 Foreground="#63372C"
+                HorizontalAlignment="Center"
+                Width="200"
                 />
         </StackPanel>
         <StackPanel
-            Width="400">
+            Width="400"
+            HorizontalAlignment="Left">
             <Label 
                 Content="Breed"
                 FontFamily="Arial Rounded MT Bold"
@@ -44,10 +47,12 @@
                 FontSize="14"
                 Margin="0,0,0,0"
                 Foreground="#63372C"
+                Width="200"
                 />
         </StackPanel>
         <StackPanel
-            Width="400">
+            Width="400"
+            HorizontalAlignment="Left">
             <Label
                 Content="Gender"
                 FontFamily="Arial Rounded MT Bold"
@@ -62,10 +67,12 @@
                 FontSize="14"
                 Margin="0,0,0,0"
                 Foreground="#63372C"
+                Width="200"
                 />
         </StackPanel>
         <StackPanel
-            Width="400">
+            Width="400"
+            HorizontalAlignment="Left">
             <Label
                 Content="Arrival date"
                 FontFamily="Arial Rounded MT Bold"
@@ -80,10 +87,12 @@
                 FontSize="14"
                 Margin="0,0,0,0"
                 Foreground="#63372C"
+                Width="200"
                 />
         </StackPanel>
         <StackPanel
-            Width="400">
+            Width="400"
+            HorizontalAlignment="Left">
             <Label
                 Content="Birthdate"
                 FontFamily="Arial Rounded MT Bold"
@@ -96,8 +105,8 @@
                 x:Name="BirthdatePicker"
                 FontFamily="Arial Rounded MT Bold"
                 FontSize="14"
-                Margin="0,0,0,0"
                 Foreground="#63372C"
+                Width="200"
                 />
         </StackPanel>
         <StackPanel

@@ -124,7 +124,7 @@
                         HorizontalAlignment="Center"
                         FontWeight="Bold" 
                         FontFamily="Arial Rounded MT Bold"
-                        FontSize="10"
+                        FontSize="30"
                         />
                 </StackPanel>
             </Border>
@@ -156,7 +156,7 @@
                         HorizontalAlignment="Center"
                         FontWeight="Bold" 
                         FontFamily="Arial Rounded MT Bold"
-                        FontSize="10"
+                        FontSize="30"
                         />
                 </StackPanel>
             </Border>
@@ -189,7 +189,7 @@
                         HorizontalAlignment="Center"
                         FontWeight="Bold" 
                         FontFamily="Arial Rounded MT Bold"
-                        FontSize="10"
+                        FontSize="30"
                         />
                 </StackPanel>
             </Border>
